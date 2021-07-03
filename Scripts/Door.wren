@@ -25,9 +25,9 @@ class Door is Triggerable {
             pos.y = pos.y + 1.0 * ts
             
             transform.SetTranslation(pos)
-            if(pos.y >= _StartY + 1.5) {
-                _Opening = false
-            }
+            //if(pos.y >= _StartY + 1.5) {
+            //    _Opening = false
+            //}
         }
     }
 
@@ -38,6 +38,5 @@ class Door is Triggerable {
     trigger() {
         _Triggered = true
         _Opening = true
-        Engine.Log("TRIGGERED!")
     }
 }

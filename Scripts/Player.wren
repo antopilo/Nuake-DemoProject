@@ -62,7 +62,6 @@ class PlayerScript is ScriptableEntity {
         } else {
             _Velocity.y = -10
             
-
             if(Input.IsKeyPressed(32)) _Velocity.y = _Jump
                 
 

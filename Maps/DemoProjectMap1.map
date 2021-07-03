@@ -7,48 +7,197 @@
 "_tb_def" "builtin:DemoProject.fgd"
 // brush 0
 {
-( -640 -432 -16 ) ( -640 -431 -16 ) ( -640 -432 -15 ) MyTexturePack/BlueGrid 368 0 0 1 1
-( -336 -640 -16 ) ( -336 -640 -15 ) ( -335 -640 -16 ) MyTexturePack/BlueGrid 272 0 0 1 1
-( -336 -432 -16 ) ( -335 -432 -16 ) ( -336 -431 -16 ) MyTexturePack/BlueGrid 272 -368 0 1 1
-( -208 -304 16 ) ( -208 -303 16 ) ( -207 -304 16 ) MyTexturePack/BlueGrid 272 -368 0 1 1
-( -208 640 16 ) ( -207 640 16 ) ( -208 640 17 ) MyTexturePack/BlueGrid 272 0 0 1 1
-( 640 -304 16 ) ( 640 -304 17 ) ( 640 -303 16 ) MyTexturePack/BlueGrid 368 0 0 1 1
+( -2112 -432 -16 ) ( -2112 -431 -16 ) ( -2112 -432 -15 ) MyTexturePack/GreenGrid 16 0 0 1 1
+( -336 -3072 -16 ) ( -336 -3072 -15 ) ( -335 -3072 -16 ) MyTexturePack/GreenGrid 16 0 0 1 1
+( -336 -432 -16 ) ( -335 -432 -16 ) ( -336 -431 -16 ) MyTexturePack/GreenGrid 272 -368 0 1 1
+( -208 -304 16 ) ( -208 -303 16 ) ( -207 -304 16 ) MyTexturePack/GreenGrid 272 -368 0 1 1
+( -208 1088 16 ) ( -207 1088 16 ) ( -208 1088 17 ) MyTexturePack/GreenGrid 16 0 0 1 1
+( 1600 -304 16 ) ( 1600 -304 17 ) ( 1600 -303 16 ) MyTexturePack/GreenGrid 16 0 0 1 1
 }
 // brush 1
 {
-( -96 320 16 ) ( -96 321 16 ) ( -96 320 17 ) MyTexturePack/RedGrid 0 0 0 1 1
-( -96 320 16 ) ( -96 320 17 ) ( -95 320 16 ) MyTexturePack/RedGrid 0 0 0 1 1
-( -96 320 16 ) ( -95 320 16 ) ( -96 321 16 ) MyTexturePack/RedGrid 0 0 0 1 1
-( -80 512 144 ) ( -80 513 144 ) ( -79 512 144 ) MyTexturePack/RedGrid 0 0 0 1 1
-( -80 512 32 ) ( -79 512 32 ) ( -80 512 33 ) MyTexturePack/RedGrid 0 0 0 1 1
-( -80 512 32 ) ( -80 512 33 ) ( -80 513 32 ) MyTexturePack/RedGrid 0 0 0 1 1
+( 528 -560 16 ) ( 528 -559 16 ) ( 528 -560 17 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( 528 -560 16 ) ( 528 -560 17 ) ( 529 -560 16 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( 528 -560 16 ) ( 529 -560 16 ) ( 528 -559 16 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( 544 -320 128 ) ( 544 -319 128 ) ( 545 -320 128 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( 544 -320 32 ) ( 545 -320 32 ) ( 544 -320 33 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( 544 -320 32 ) ( 544 -320 33 ) ( 544 -319 32 ) MyTexturePack/BlueGrid 0 0 0 1 1
+}
+// brush 2
+{
+( 336 -336 16 ) ( 336 -335 16 ) ( 336 -336 17 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( 384 -336 16 ) ( 384 -336 17 ) ( 385 -336 16 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( 384 -336 16 ) ( 385 -336 16 ) ( 384 -335 16 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( 528 -320 224 ) ( 528 -319 224 ) ( 529 -320 224 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( 528 -320 32 ) ( 529 -320 32 ) ( 528 -320 33 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( 352 -320 32 ) ( 352 -320 33 ) ( 352 -319 32 ) MyTexturePack/BlueGrid 0 0 0 1 1
+}
+// brush 3
+{
+( 336 -560 16 ) ( 336 -559 16 ) ( 336 -560 17 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( 384 -560 16 ) ( 384 -560 17 ) ( 385 -560 16 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( 384 -560 16 ) ( 385 -560 16 ) ( 384 -559 16 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( 528 -544 128 ) ( 528 -543 128 ) ( 529 -544 128 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( 528 -544 32 ) ( 529 -544 32 ) ( 528 -544 33 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( 528 -544 32 ) ( 528 -544 33 ) ( 528 -543 32 ) MyTexturePack/BlueGrid 0 0 0 1 1
+}
+// brush 4
+{
+( 336 -560 144 ) ( 336 -560 128 ) ( 336 -320 224 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( 544 -560 144 ) ( 544 -560 128 ) ( 336 -560 128 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( 336 -320 240 ) ( 544 -560 144 ) ( 336 -560 144 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( 336 -560 128 ) ( 544 -560 128 ) ( 336 -320 224 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( 336 -320 224 ) ( 544 -560 128 ) ( 544 -560 144 ) MyTexturePack/BlueGrid 0 0 0 1 1
+}
+// brush 5
+{
+( 336 -320 224 ) ( 336 -320 240 ) ( 544 -560 144 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( 544 -560 128 ) ( 544 -320 128 ) ( 336 -320 224 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( 544 -320 144 ) ( 336 -320 240 ) ( 336 -320 224 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( 544 -560 144 ) ( 336 -320 240 ) ( 544 -320 144 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( 544 -320 144 ) ( 544 -320 128 ) ( 544 -560 128 ) MyTexturePack/BlueGrid 0 0 0 1 1
+}
+// brush 6
+{
+( -128 -544 0 ) ( -128 -543 0 ) ( -128 -544 1 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( -128 -544 0 ) ( -128 -544 1 ) ( -127 -544 0 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( -128 -544 16 ) ( -127 -544 16 ) ( -128 -543 16 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( -96 -384 32 ) ( -96 -383 32 ) ( -95 -384 32 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( -96 -384 32 ) ( -95 -384 32 ) ( -96 -384 33 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( -96 -384 32 ) ( -96 -384 33 ) ( -96 -383 32 ) MyTexturePack/BlueGrid 0 0 0 1 1
+}
+// brush 7
+{
+( -160 -544 0 ) ( -160 -543 0 ) ( -160 -544 1 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( -160 -544 0 ) ( -160 -544 1 ) ( -159 -544 0 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( -160 -544 16 ) ( -159 -544 16 ) ( -160 -543 16 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( -128 -384 48 ) ( -128 -383 48 ) ( -127 -384 48 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( -128 -384 32 ) ( -127 -384 32 ) ( -128 -384 33 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( -128 -384 32 ) ( -128 -384 33 ) ( -128 -383 32 ) MyTexturePack/BlueGrid 0 0 0 1 1
+}
+// brush 8
+{
+( -192 -544 0 ) ( -192 -543 0 ) ( -192 -544 1 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( -192 -544 0 ) ( -192 -544 1 ) ( -191 -544 0 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( -192 -544 16 ) ( -191 -544 16 ) ( -192 -543 16 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( -160 -384 64 ) ( -160 -383 64 ) ( -159 -384 64 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( -160 -384 32 ) ( -159 -384 32 ) ( -160 -384 33 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( -160 -384 32 ) ( -160 -384 33 ) ( -160 -383 32 ) MyTexturePack/BlueGrid 0 0 0 1 1
+}
+// brush 9
+{
+( -352 -544 0 ) ( -352 -543 0 ) ( -352 -544 1 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( -224 -544 0 ) ( -224 -544 1 ) ( -223 -544 0 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( -224 -544 16 ) ( -223 -544 16 ) ( -224 -543 16 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( -192 -384 80 ) ( -192 -383 80 ) ( -191 -384 80 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( -192 -384 32 ) ( -191 -384 32 ) ( -192 -384 33 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( -192 -384 32 ) ( -192 -384 33 ) ( -192 -383 32 ) MyTexturePack/BlueGrid 0 0 0 1 1
+}
+// brush 10
+{
+( -384 -384 32 ) ( -384 -383 32 ) ( -384 -384 33 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( -352 -544 0 ) ( -353 -544 0 ) ( -352 -544 1 ) MyTexturePack/BlueGrid 0 0 180 1 -1
+( -352 -544 16 ) ( -352 -543 16 ) ( -353 -544 16 ) MyTexturePack/BlueGrid 0 0 180 1 -1
+( -384 -384 64 ) ( -385 -384 64 ) ( -384 -383 64 ) MyTexturePack/BlueGrid 0 0 180 1 -1
+( -384 -384 32 ) ( -384 -384 33 ) ( -385 -384 32 ) MyTexturePack/BlueGrid 0 0 180 1 -1
+( -352 -544 0 ) ( -352 -544 1 ) ( -352 -543 0 ) MyTexturePack/BlueGrid 0 0 0 1 1
+}
+// brush 11
+{
+( -416 -384 32 ) ( -416 -383 32 ) ( -416 -384 33 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( -384 -544 0 ) ( -385 -544 0 ) ( -384 -544 1 ) MyTexturePack/BlueGrid 0 0 180 1 -1
+( -384 -544 16 ) ( -384 -543 16 ) ( -385 -544 16 ) MyTexturePack/BlueGrid 0 0 180 1 -1
+( -416 -384 48 ) ( -417 -384 48 ) ( -416 -383 48 ) MyTexturePack/BlueGrid 0 0 180 1 -1
+( -416 -384 32 ) ( -416 -384 33 ) ( -417 -384 32 ) MyTexturePack/BlueGrid 0 0 180 1 -1
+( -384 -544 0 ) ( -384 -544 1 ) ( -384 -543 0 ) MyTexturePack/BlueGrid 0 0 0 1 1
+}
+// brush 12
+{
+( -448 -384 32 ) ( -448 -383 32 ) ( -448 -384 33 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( -416 -544 0 ) ( -417 -544 0 ) ( -416 -544 1 ) MyTexturePack/BlueGrid 0 0 180 1 -1
+( -416 -544 16 ) ( -416 -543 16 ) ( -417 -544 16 ) MyTexturePack/BlueGrid 0 0 180 1 -1
+( -448 -384 32 ) ( -449 -384 32 ) ( -448 -383 32 ) MyTexturePack/BlueGrid 0 0 180 1 -1
+( -448 -384 32 ) ( -448 -384 33 ) ( -449 -384 32 ) MyTexturePack/BlueGrid 0 0 180 1 -1
+( -416 -544 0 ) ( -416 -544 1 ) ( -416 -543 0 ) MyTexturePack/BlueGrid 0 0 0 1 1
+}
+// brush 13
+{
+( -704 128 16 ) ( -704 129 16 ) ( -704 128 17 ) MyTexturePack/BlueGrid 0 16 0 1 1
+( -512 384 80 ) ( -384 256 16 ) ( -512 256 16 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( -512 128 16 ) ( -511 128 16 ) ( -512 129 16 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( -320 456 80 ) ( -319 456 80 ) ( -320 456 81 ) MyTexturePack/BlueGrid 0 16 0 1 1
+( -320 384 80 ) ( -320 384 81 ) ( -320 385 80 ) MyTexturePack/BlueGrid 0 16 0 1 1
+}
+// brush 14
+{
+( -704 128 16 ) ( -704 129 16 ) ( -704 128 17 ) MyTexturePack/BlueGrid 0 16 0 1 1
+( -512 56 16 ) ( -512 56 17 ) ( -511 56 16 ) MyTexturePack/BlueGrid 0 16 0 1 1
+( -512 128 16 ) ( -511 128 16 ) ( -512 129 16 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( -512 256 16 ) ( -384 128 80 ) ( -512 128 80 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( -320 384 80 ) ( -320 384 81 ) ( -320 385 80 ) MyTexturePack/BlueGrid 0 16 0 1 1
+}
+// brush 15
+{
+( -704 128 216 ) ( -704 128 215 ) ( -704 129 216 ) MyTexturePack/BlueGrid 0 -24 0 1 -1
+( -512 384 152 ) ( -512 256 216 ) ( -384 256 216 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( -512 128 216 ) ( -512 129 216 ) ( -511 128 216 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( -320 280 216 ) ( -320 456 136 ) ( -192 456 136 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( -320 456 152 ) ( -320 456 151 ) ( -319 456 152 ) MyTexturePack/BlueGrid 0 -24 0 1 -1
+( -320 384 152 ) ( -320 385 152 ) ( -320 384 151 ) MyTexturePack/BlueGrid 0 -24 0 1 -1
+}
+// brush 16
+{
+( -704 384 216 ) ( -704 383 216 ) ( -704 384 215 ) MyTexturePack/BlueGrid 0 -24 180 1 1
+( -320 56 152 ) ( -319 56 152 ) ( -320 56 151 ) MyTexturePack/BlueGrid 0 -24 0 1 -1
+( -320 232 216 ) ( -192 56 136 ) ( -320 56 136 ) MyTexturePack/BlueGrid 0 0 0 1 -1
+( -512 384 216 ) ( -511 384 216 ) ( -512 383 216 ) MyTexturePack/BlueGrid 0 0 0 1 -1
+( -512 128 152 ) ( -384 256 216 ) ( -512 256 216 ) MyTexturePack/BlueGrid 0 0 0 1 -1
+( -320 128 152 ) ( -320 128 151 ) ( -320 127 152 ) MyTexturePack/BlueGrid 0 -24 180 1 1
+}
+// brush 17
+{
+( -704 232 216 ) ( -704 233 216 ) ( -704 232 217 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( -368 232 216 ) ( -368 232 217 ) ( -367 232 216 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( -368 232 216 ) ( -367 232 216 ) ( -368 233 216 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( -320 280 224 ) ( -320 281 224 ) ( -319 280 224 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( -320 280 224 ) ( -319 280 224 ) ( -320 280 225 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( -320 280 224 ) ( -320 280 225 ) ( -320 281 224 ) MyTexturePack/BlueGrid 0 0 0 1 1
 }
 }
 // entity 1
 {
-"classname" "Trigger"
-"target" "door"
-// brush 0
-{
-( 176 -48 16 ) ( 176 -47 16 ) ( 176 -48 17 ) MyTexturePack/RedGrid 0 0 0 1 1
-( 336 -80 16 ) ( 336 -80 17 ) ( 337 -80 16 ) MyTexturePack/RedGrid 0 0 0 1 1
-( 336 -48 16 ) ( 337 -48 16 ) ( 336 -47 16 ) MyTexturePack/RedGrid 0 0 0 1 1
-( 448 64 96 ) ( 448 65 96 ) ( 449 64 96 ) MyTexturePack/RedGrid 0 0 0 1 1
-( 448 96 32 ) ( 449 96 32 ) ( 448 96 33 ) MyTexturePack/RedGrid 0 0 0 1 1
-( 448 64 32 ) ( 448 64 33 ) ( 448 65 32 ) MyTexturePack/RedGrid 0 0 0 1 1
-}
+"classname" "func_group"
+"_tb_type" "_tb_group"
+"_tb_name" "Try"
+"_tb_id" "6"
 }
 // entity 2
 {
 "classname" "Door"
 "targetname" "door"
+"_tb_group" "6"
 // brush 0
 {
-( 176 160 16 ) ( 176 161 16 ) ( 176 160 17 ) MyTexturePack/RedGrid 0 0 0 1 1
-( 352 160 16 ) ( 352 160 17 ) ( 353 160 16 ) MyTexturePack/RedGrid 0 0 0 1 1
-( 352 160 16 ) ( 353 160 16 ) ( 352 161 16 ) MyTexturePack/RedGrid 0 0 0 1 1
-( 432 272 64 ) ( 432 273 64 ) ( 433 272 64 ) MyTexturePack/RedGrid 0 0 0 1 1
-( 432 272 32 ) ( 433 272 32 ) ( 432 272 33 ) MyTexturePack/RedGrid 0 0 0 1 1
-( 432 272 32 ) ( 432 272 33 ) ( 432 273 32 ) MyTexturePack/RedGrid 0 0 0 1 1
+( 224 -96 16 ) ( 224 -95 16 ) ( 224 -96 17 ) MyTexturePack/RedGrid 0 0 0 1 1
+( 320 -32 16 ) ( 320 -32 17 ) ( 321 -32 16 ) MyTexturePack/RedGrid 0 0 0 1 1
+( 320 -96 16 ) ( 321 -96 16 ) ( 320 -95 16 ) MyTexturePack/RedGrid 0 0 0 1 1
+( 400 16 32 ) ( 400 17 32 ) ( 401 16 32 ) MyTexturePack/RedGrid 0 0 0 1 1
+( 400 16 32 ) ( 401 16 32 ) ( 400 16 33 ) MyTexturePack/RedGrid 0 0 0 1 1
+( 352 16 32 ) ( 352 16 33 ) ( 352 17 32 ) MyTexturePack/RedGrid 0 0 0 1 1
+}
+}
+// entity 3
+{
+"classname" "Trigger"
+"target" "door"
+"_tb_group" "6"
+// brush 0
+{
+( 224 -48 16 ) ( 224 -47 16 ) ( 224 -48 17 ) MyTexturePack/RedGrid 0 0 0 1 1
+( 336 -32 16 ) ( 336 -32 17 ) ( 337 -32 16 ) MyTexturePack/RedGrid 0 0 0 1 1
+( 336 -48 16 ) ( 337 -48 16 ) ( 336 -47 16 ) MyTexturePack/RedGrid 0 0 0 1 1
+( 448 64 64 ) ( 448 65 64 ) ( 449 64 64 ) MyTexturePack/RedGrid 0 0 0 1 1
+( 448 32 32 ) ( 449 32 32 ) ( 448 32 33 ) MyTexturePack/RedGrid 0 0 0 1 1
+( 352 64 32 ) ( 352 64 33 ) ( 352 65 32 ) MyTexturePack/RedGrid 0 0 0 1 1
 }
 }
