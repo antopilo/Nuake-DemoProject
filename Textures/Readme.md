@@ -1,0 +1,1 @@
+Place your trenchbroom texture folders in here.
