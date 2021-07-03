@@ -2,12 +2,12 @@
     "Entities": [
         {
             "NameComponent": {
-                "ID": -919921168,
+                "ID": 1623295371,
                 "Name": "door"
             },
             "ParentComponent": {
                 "HasParent": true,
-                "ParentID": -919924554
+                "ParentID": 1623294542
             },
             "TransformComponent": {
                 "Rotation": {
@@ -22,7 +22,7 @@
                 },
                 "Translation": {
                     "x": -0.125,
-                    "y": 3.138883113861084,
+                    "y": 3.1319386959075928,
                     "z": 9.125
                 },
                 "Type": "TransformComponent"
@@ -34,7 +34,7 @@
         },
         {
             "NameComponent": {
-                "ID": -919924554,
+                "ID": 1623294542,
                 "Name": "Brush 2"
             },
             "ParentComponent": {
@@ -62,12 +62,12 @@
         },
         {
             "NameComponent": {
-                "ID": -919928642,
+                "ID": 1623277638,
                 "Name": "Trigger"
             },
             "ParentComponent": {
                 "HasParent": true,
-                "ParentID": -919931608
+                "ParentID": 1623276596
             },
             "TransformComponent": {
                 "Rotation": {
@@ -94,7 +94,7 @@
         },
         {
             "NameComponent": {
-                "ID": -919931608,
+                "ID": 1623276596,
                 "Name": "Brush 1"
             },
             "ParentComponent": {
@@ -122,12 +122,12 @@
         },
         {
             "NameComponent": {
-                "ID": -919936000,
+                "ID": 1622185626,
                 "Name": ""
             },
             "ParentComponent": {
                 "HasParent": true,
-                "ParentID": -919937009
+                "ParentID": 1622185113
             },
             "TransformComponent": {
                 "Rotation": {
@@ -150,7 +150,7 @@
         },
         {
             "NameComponent": {
-                "ID": -919937009,
+                "ID": 1622185113,
                 "Name": "Brush 0"
             },
             "ParentComponent": {
@@ -179,7 +179,7 @@
         {
             "CameraComponent": {
                 "CameraInstance": {
-                    "AspectRatio": 2.540186882019043,
+                    "AspectRatio": 2.1134021282196045,
                     "Exposure": 1.0,
                     "Fov": 88.0,
                     "Speed": 1.0,
@@ -205,9 +205,9 @@
                     "z": 1.0
                 },
                 "Translation": {
-                    "x": 2.5057828426361084,
-                    "y": 1.7993285655975342,
-                    "z": 5.256689548492432
+                    "x": 4.672611236572266,
+                    "y": 1.7989178895950317,
+                    "z": 6.423618316650391
                 },
                 "Type": "TransformComponent"
             },
@@ -256,9 +256,9 @@
                     "z": 1.0
                 },
                 "Direction": {
-                    "x": 0.20000000298023224,
-                    "y": 0.9591699838638306,
-                    "z": 0.20000000298023224
+                    "x": 0.17433865368366241,
+                    "y": 0.40272295475006104,
+                    "z": -0.8985657095909119
                 },
                 "IsVolumetric": false,
                 "Strength": 10.0,
@@ -320,9 +320,9 @@
                     "z": 1.0
                 },
                 "Translation": {
-                    "x": 2.5057828426361084,
-                    "y": 1.2993285655975342,
-                    "z": 5.256689548492432
+                    "x": 4.672611236572266,
+                    "y": 1.2989178895950317,
+                    "z": 6.423618316650391
                 },
                 "Type": "TransformComponent"
             },
@@ -380,9 +380,9 @@
                 "z": 3.310000101919286e-05
             },
             "SunDirection": {
-                "x": 0.20000000298023224,
-                "y": 0.9591699838638306,
-                "z": 0.20000000298023224
+                "x": 0.17433865368366241,
+                "y": 0.40272295475006104,
+                "z": -0.8985657095909119
             },
             "SunIntensity": 100.0,
             "SurfaceRadius": 6360000.0

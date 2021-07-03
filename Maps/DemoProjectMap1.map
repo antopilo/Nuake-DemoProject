@@ -3,15 +3,25 @@
 // entity 0
 {
 "classname" "worldspawn"
-"_tb_textures" "textures/MakkonPNG"
+"_tb_textures" "textures/MyTexturePack"
+"_tb_def" "builtin:DemoProject.fgd"
 // brush 0
 {
-( -640 -432 -16 ) ( -640 -431 -16 ) ( -640 -432 -15 ) MakkonPNG/ground_blue04 368 0 0 1 1
-( -336 -640 -16 ) ( -336 -640 -15 ) ( -335 -640 -16 ) MakkonPNG/ground_blue04 272 0 0 1 1
-( -336 -432 -16 ) ( -335 -432 -16 ) ( -336 -431 -16 ) MakkonPNG/ground_blue04 272 -368 0 1 1
-( -208 -304 16 ) ( -208 -303 16 ) ( -207 -304 16 ) MakkonPNG/ground_blue04 272 -368 0 1 1
-( -208 640 16 ) ( -207 640 16 ) ( -208 640 17 ) MakkonPNG/ground_blue04 272 0 0 1 1
-( 640 -304 16 ) ( 640 -304 17 ) ( 640 -303 16 ) MakkonPNG/ground_blue04 368 0 0 1 1
+( -640 -432 -16 ) ( -640 -431 -16 ) ( -640 -432 -15 ) MyTexturePack/BlueGrid 368 0 0 1 1
+( -336 -640 -16 ) ( -336 -640 -15 ) ( -335 -640 -16 ) MyTexturePack/BlueGrid 272 0 0 1 1
+( -336 -432 -16 ) ( -335 -432 -16 ) ( -336 -431 -16 ) MyTexturePack/BlueGrid 272 -368 0 1 1
+( -208 -304 16 ) ( -208 -303 16 ) ( -207 -304 16 ) MyTexturePack/BlueGrid 272 -368 0 1 1
+( -208 640 16 ) ( -207 640 16 ) ( -208 640 17 ) MyTexturePack/BlueGrid 272 0 0 1 1
+( 640 -304 16 ) ( 640 -304 17 ) ( 640 -303 16 ) MyTexturePack/BlueGrid 368 0 0 1 1
+}
+// brush 1
+{
+( -96 320 16 ) ( -96 321 16 ) ( -96 320 17 ) MyTexturePack/RedGrid 0 0 0 1 1
+( -96 320 16 ) ( -96 320 17 ) ( -95 320 16 ) MyTexturePack/RedGrid 0 0 0 1 1
+( -96 320 16 ) ( -95 320 16 ) ( -96 321 16 ) MyTexturePack/RedGrid 0 0 0 1 1
+( -80 512 144 ) ( -80 513 144 ) ( -79 512 144 ) MyTexturePack/RedGrid 0 0 0 1 1
+( -80 512 32 ) ( -79 512 32 ) ( -80 512 33 ) MyTexturePack/RedGrid 0 0 0 1 1
+( -80 512 32 ) ( -80 512 33 ) ( -80 513 32 ) MyTexturePack/RedGrid 0 0 0 1 1
 }
 }
 // entity 1
@@ -20,12 +30,12 @@
 "target" "door"
 // brush 0
 {
-( 176 -48 16 ) ( 176 -47 16 ) ( 176 -48 17 ) Makkon/ground_blue05 0 0 0 1 1
-( 336 -80 16 ) ( 336 -80 17 ) ( 337 -80 16 ) Makkon/ground_blue05 0 0 0 1 1
-( 336 -48 16 ) ( 337 -48 16 ) ( 336 -47 16 ) Makkon/ground_blue05 0 0 0 1 1
-( 448 64 96 ) ( 448 65 96 ) ( 449 64 96 ) Makkon/ground_blue05 0 0 0 1 1
-( 448 96 32 ) ( 449 96 32 ) ( 448 96 33 ) Makkon/ground_blue05 0 0 0 1 1
-( 448 64 32 ) ( 448 64 33 ) ( 448 65 32 ) Makkon/ground_blue05 0 0 0 1 1
+( 176 -48 16 ) ( 176 -47 16 ) ( 176 -48 17 ) MyTexturePack/RedGrid 0 0 0 1 1
+( 336 -80 16 ) ( 336 -80 17 ) ( 337 -80 16 ) MyTexturePack/RedGrid 0 0 0 1 1
+( 336 -48 16 ) ( 337 -48 16 ) ( 336 -47 16 ) MyTexturePack/RedGrid 0 0 0 1 1
+( 448 64 96 ) ( 448 65 96 ) ( 449 64 96 ) MyTexturePack/RedGrid 0 0 0 1 1
+( 448 96 32 ) ( 449 96 32 ) ( 448 96 33 ) MyTexturePack/RedGrid 0 0 0 1 1
+( 448 64 32 ) ( 448 64 33 ) ( 448 65 32 ) MyTexturePack/RedGrid 0 0 0 1 1
 }
 }
 // entity 2
@@ -34,11 +44,11 @@
 "targetname" "door"
 // brush 0
 {
-( 544 -64 16 ) ( 544 -63 16 ) ( 544 -64 17 ) MakkonPNG/ground_blck04 0 0 0 1 1
-( 544 -64 16 ) ( 544 -64 17 ) ( 545 -64 16 ) MakkonPNG/ground_blck04 0 0 0 1 1
-( 544 -64 16 ) ( 545 -64 16 ) ( 544 -63 16 ) MakkonPNG/ground_blck04 0 0 0 1 1
-( 624 48 192 ) ( 624 49 192 ) ( 625 48 192 ) MakkonPNG/ground_blck04 0 0 0 1 1
-( 624 48 32 ) ( 625 48 32 ) ( 624 48 33 ) MakkonPNG/ground_blck04 0 0 0 1 1
-( 624 48 32 ) ( 624 48 33 ) ( 624 49 32 ) MakkonPNG/ground_blck04 0 0 0 1 1
+( 176 160 16 ) ( 176 161 16 ) ( 176 160 17 ) MyTexturePack/RedGrid 0 0 0 1 1
+( 352 160 16 ) ( 352 160 17 ) ( 353 160 16 ) MyTexturePack/RedGrid 0 0 0 1 1
+( 352 160 16 ) ( 353 160 16 ) ( 352 161 16 ) MyTexturePack/RedGrid 0 0 0 1 1
+( 432 272 64 ) ( 432 273 64 ) ( 433 272 64 ) MyTexturePack/RedGrid 0 0 0 1 1
+( 432 272 32 ) ( 433 272 32 ) ( 432 272 33 ) MyTexturePack/RedGrid 0 0 0 1 1
+( 432 272 32 ) ( 432 272 33 ) ( 432 273 32 ) MyTexturePack/RedGrid 0 0 0 1 1
 }
 }
