@@ -1,0 +1,49 @@
+{
+    "BrushEntities": [
+        {
+            "Class": "TriggerScript",
+            "Description": "asdkljflakjfl",
+            "IsTrigger": true,
+            "Name": "TestTrigger",
+            "Script": "Scripts/Trigger.wren",
+            "Solid": false,
+            "Visible": false
+        },
+        {
+            "Class": "",
+            "Description": "Movable",
+            "IsTrigger": false,
+            "Name": "Movable",
+            "Script": "",
+            "Solid": true,
+            "Visible": true
+        },
+        {
+            "Class": "TriggerOnce",
+            "Description": "a simple trigger",
+            "IsTrigger": true,
+            "Name": "Trigger",
+            "Script": "Scripts/TriggerOnce.wren",
+            "Solid": false,
+            "Visible": false
+        },
+        {
+            "Class": "Door",
+            "Description": "a door",
+            "IsTrigger": false,
+            "Name": "Door",
+            "Script": "Scripts/Door.wren",
+            "Solid": true,
+            "Visible": true
+        },
+        {
+            "Class": "ActionTriggerScript",
+            "Description": "Press f trigger",
+            "IsTrigger": true,
+            "Name": "ActionTrigger",
+            "Script": "Scripts/ActionTrigger.wren",
+            "Solid": false,
+            "Visible": false
+        }
+    ]
+}
