@@ -29,7 +29,7 @@
         },
         {
             "Class": "Door",
-            "Description": "a door",
+            "Description": "Hello video",
             "IsTrigger": false,
             "Name": "Door",
             "Script": "Scripts/Door.wren",

@@ -2,12 +2,11 @@
     "Entities": [
         {
             "NameComponent": {
-                "ID": -2101593897,
-                "Name": "Trigger"
+                "ID": -1669303932,
+                "Name": "model"
             },
             "ParentComponent": {
-                "HasParent": true,
-                "ParentID": -2101595601
+                "HasParent": false
             },
             "TransformComponent": {
                 "Rotation": {
@@ -22,8 +21,96 @@
                 },
                 "Translation": {
                     "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Type": "TransformComponent"
+            }
+        },
+        {
+            "NameComponent": {
+                "ID": 2007129322,
+                "Name": "door2"
+            },
+            "ParentComponent": {
+                "HasParent": true,
+                "ParentID": 2007126907
+            },
+            "TransformComponent": {
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Translation": {
+                    "x": 1.125,
+                    "y": 0.375,
+                    "z": 7.75
+                },
+                "Type": "TransformComponent"
+            },
+            "WrenScriptComponent": {
+                "Class": "Door",
+                "Script": "Scripts/Door.wren"
+            }
+        },
+        {
+            "NameComponent": {
+                "ID": 2007126907,
+                "Name": "Brush 4"
+            },
+            "ParentComponent": {
+                "HasParent": true,
+                "ParentID": 237443808
+            },
+            "TransformComponent": {
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Translation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Type": "TransformComponent"
+            }
+        },
+        {
+            "NameComponent": {
+                "ID": 2007121406,
+                "Name": "Trigger"
+            },
+            "ParentComponent": {
+                "HasParent": true,
+                "ParentID": 2007118922
+            },
+            "TransformComponent": {
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Translation": {
+                    "x": -0.875,
                     "y": 0.625,
-                    "z": 4.5
+                    "z": 7.5
                 },
                 "Type": "TransformComponent"
             },
@@ -34,7 +121,7 @@
         },
         {
             "NameComponent": {
-                "ID": -2101595601,
+                "ID": 2007118922,
                 "Name": "Brush 3"
             },
             "ParentComponent": {
@@ -62,12 +149,12 @@
         },
         {
             "NameComponent": {
-                "ID": -2101597812,
-                "Name": "door"
+                "ID": 2007112039,
+                "Name": "Trigger"
             },
             "ParentComponent": {
                 "HasParent": true,
-                "ParentID": -2101599731
+                "ParentID": 2007109574
             },
             "TransformComponent": {
                 "Rotation": {
@@ -81,20 +168,20 @@
                     "z": 1.0
                 },
                 "Translation": {
-                    "x": -0.125,
-                    "y": 0.375,
+                    "x": -0.9375,
+                    "y": 0.625,
                     "z": 4.5
                 },
                 "Type": "TransformComponent"
             },
             "WrenScriptComponent": {
-                "Class": "Door",
-                "Script": "Scripts/Door.wren"
+                "Class": "TriggerOnce",
+                "Script": "Scripts/TriggerOnce.wren"
             }
         },
         {
             "NameComponent": {
-                "ID": -2101599731,
+                "ID": 2007109574,
                 "Name": "Brush 2"
             },
             "ParentComponent": {
@@ -122,7 +209,39 @@
         },
         {
             "NameComponent": {
-                "ID": -2101601146,
+                "ID": 2007091167,
+                "Name": "door"
+            },
+            "ParentComponent": {
+                "HasParent": true,
+                "ParentID": 2007087808
+            },
+            "TransformComponent": {
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Translation": {
+                    "x": 1.125,
+                    "y": 0.375,
+                    "z": 4.75
+                },
+                "Type": "TransformComponent"
+            },
+            "WrenScriptComponent": {
+                "Class": "Door",
+                "Script": "Scripts/Door.wren"
+            }
+        },
+        {
+            "NameComponent": {
+                "ID": 2007087808,
                 "Name": "Brush 1"
             },
             "ParentComponent": {
@@ -150,12 +269,12 @@
         },
         {
             "NameComponent": {
-                "ID": -2101603431,
-                "Name": ""
+                "ID": 2006974038,
+                "Name": "WorldSpawn"
             },
             "ParentComponent": {
                 "HasParent": true,
-                "ParentID": -2101641892
+                "ParentID": 2006970777
             },
             "TransformComponent": {
                 "Rotation": {
@@ -169,497 +288,106 @@
                     "z": 1.0
                 },
                 "Translation": {
-                    "x": 4.0,
-                    "y": 3.4375,
-                    "z": -8.0
-                },
-                "Type": "TransformComponent"
-            }
-        },
-        {
-            "NameComponent": {
-                "ID": -2101605464,
-                "Name": ""
-            },
-            "ParentComponent": {
-                "HasParent": true,
-                "ParentID": -2101641892
-            },
-            "TransformComponent": {
-                "Rotation": {
                     "x": 0.0,
                     "y": 0.0,
                     "z": 0.0
                 },
-                "Scale": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
-                },
-                "Translation": {
-                    "x": 2.34375,
-                    "y": 2.671875,
-                    "z": -8.0
-                },
                 "Type": "TransformComponent"
             }
         },
         {
             "NameComponent": {
-                "ID": -2101607331,
-                "Name": ""
-            },
-            "ParentComponent": {
-                "HasParent": true,
-                "ParentID": -2101641892
-            },
-            "TransformComponent": {
-                "Rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                },
-                "Scale": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
-                },
-                "Translation": {
-                    "x": 5.65625,
-                    "y": 2.671875,
-                    "z": -8.0
-                },
-                "Type": "TransformComponent"
-            }
-        },
-        {
-            "NameComponent": {
-                "ID": -2101609404,
-                "Name": ""
-            },
-            "ParentComponent": {
-                "HasParent": true,
-                "ParentID": -2101641892
-            },
-            "TransformComponent": {
-                "Rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                },
-                "Scale": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
-                },
-                "Translation": {
-                    "x": 1.9166666269302368,
-                    "y": 0.7708333134651184,
-                    "z": -8.0
-                },
-                "Type": "TransformComponent"
-            }
-        },
-        {
-            "NameComponent": {
-                "ID": -2101611277,
-                "Name": ""
-            },
-            "ParentComponent": {
-                "HasParent": true,
-                "ParentID": -2101641892
-            },
-            "TransformComponent": {
-                "Rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                },
-                "Scale": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
-                },
-                "Translation": {
-                    "x": 6.083333492279053,
-                    "y": 0.7708333134651184,
-                    "z": -8.0
-                },
-                "Type": "TransformComponent"
-            }
-        },
-        {
-            "NameComponent": {
-                "ID": -2101613479,
-                "Name": ""
-            },
-            "ParentComponent": {
-                "HasParent": true,
-                "ParentID": -2101641892
-            },
-            "TransformComponent": {
-                "Rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                },
-                "Scale": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
-                },
-                "Translation": {
-                    "x": -7.25,
-                    "y": 0.375,
-                    "z": -6.75
-                },
-                "Type": "TransformComponent"
-            }
-        },
-        {
-            "NameComponent": {
-                "ID": -2101615488,
-                "Name": ""
-            },
-            "ParentComponent": {
-                "HasParent": true,
-                "ParentID": -2101641892
-            },
-            "TransformComponent": {
-                "Rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                },
-                "Scale": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
-                },
-                "Translation": {
-                    "x": -7.25,
-                    "y": 0.5,
-                    "z": -6.25
-                },
-                "Type": "TransformComponent"
-            }
-        },
-        {
-            "NameComponent": {
-                "ID": -2101617591,
-                "Name": ""
-            },
-            "ParentComponent": {
-                "HasParent": true,
-                "ParentID": -2101641892
-            },
-            "TransformComponent": {
-                "Rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                },
-                "Scale": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
-                },
-                "Translation": {
-                    "x": -7.25,
-                    "y": 0.625,
-                    "z": -5.75
-                },
-                "Type": "TransformComponent"
-            }
-        },
-        {
-            "NameComponent": {
-                "ID": -2101619547,
-                "Name": ""
-            },
-            "ParentComponent": {
-                "HasParent": true,
-                "ParentID": -2101641892
-            },
-            "TransformComponent": {
-                "Rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                },
-                "Scale": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
-                },
-                "Translation": {
-                    "x": -7.25,
-                    "y": 0.75,
-                    "z": -4.25
-                },
-                "Type": "TransformComponent"
-            }
-        },
-        {
-            "NameComponent": {
-                "ID": -2101621736,
-                "Name": ""
-            },
-            "ParentComponent": {
-                "HasParent": true,
-                "ParentID": -2101641892
-            },
-            "TransformComponent": {
-                "Rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                },
-                "Scale": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
-                },
-                "Translation": {
-                    "x": -7.25,
-                    "y": 0.625,
-                    "z": -2.75
-                },
-                "Type": "TransformComponent"
-            }
-        },
-        {
-            "NameComponent": {
-                "ID": -2101623648,
-                "Name": ""
-            },
-            "ParentComponent": {
-                "HasParent": true,
-                "ParentID": -2101641892
-            },
-            "TransformComponent": {
-                "Rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                },
-                "Scale": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
-                },
-                "Translation": {
-                    "x": -7.25,
-                    "y": 0.5,
-                    "z": -2.25
-                },
-                "Type": "TransformComponent"
-            }
-        },
-        {
-            "NameComponent": {
-                "ID": -2101625879,
-                "Name": ""
-            },
-            "ParentComponent": {
-                "HasParent": true,
-                "ParentID": -2101641892
-            },
-            "TransformComponent": {
-                "Rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                },
-                "Scale": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
-                },
-                "Translation": {
-                    "x": -7.25,
-                    "y": 0.375,
-                    "z": -1.75
-                },
-                "Type": "TransformComponent"
-            }
-        },
-        {
-            "NameComponent": {
-                "ID": -2101629424,
-                "Name": ""
-            },
-            "ParentComponent": {
-                "HasParent": true,
-                "ParentID": -2101641892
-            },
-            "TransformComponent": {
-                "Rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                },
-                "Scale": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
-                },
-                "Translation": {
-                    "x": -6.25,
-                    "y": 2.625,
-                    "z": 7.416666507720947
-                },
-                "Type": "TransformComponent"
-            }
-        },
-        {
-            "NameComponent": {
-                "ID": -2101631243,
-                "Name": ""
-            },
-            "ParentComponent": {
-                "HasParent": true,
-                "ParentID": -2101641892
-            },
-            "TransformComponent": {
-                "Rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                },
-                "Scale": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
-                },
-                "Translation": {
-                    "x": -7.5,
-                    "y": 2.625,
-                    "z": 6.333333492279053
-                },
-                "Type": "TransformComponent"
-            }
-        },
-        {
-            "NameComponent": {
-                "ID": -2101633385,
-                "Name": ""
-            },
-            "ParentComponent": {
-                "HasParent": true,
-                "ParentID": -2101641892
-            },
-            "TransformComponent": {
-                "Rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                },
-                "Scale": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
-                },
-                "Translation": {
-                    "x": -8.625,
-                    "y": 1.125,
-                    "z": 6.75
-                },
-                "Type": "TransformComponent"
-            }
-        },
-        {
-            "NameComponent": {
-                "ID": -2101635417,
-                "Name": ""
-            },
-            "ParentComponent": {
-                "HasParent": true,
-                "ParentID": -2101641892
-            },
-            "TransformComponent": {
-                "Rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                },
-                "Scale": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
-                },
-                "Translation": {
-                    "x": -5.125,
-                    "y": 1.875,
-                    "z": 5.375
-                },
-                "Type": "TransformComponent"
-            }
-        },
-        {
-            "NameComponent": {
-                "ID": -2101638021,
-                "Name": ""
-            },
-            "ParentComponent": {
-                "HasParent": true,
-                "ParentID": -2101641892
-            },
-            "TransformComponent": {
-                "Rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                },
-                "Scale": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
-                },
-                "Translation": {
-                    "x": -6.875,
-                    "y": 1.125,
-                    "z": 8.375
-                },
-                "Type": "TransformComponent"
-            }
-        },
-        {
-            "NameComponent": {
-                "ID": -2101641020,
-                "Name": ""
-            },
-            "ParentComponent": {
-                "HasParent": true,
-                "ParentID": -2101641892
-            },
-            "TransformComponent": {
-                "Rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                },
-                "Scale": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
-                },
-                "Translation": {
-                    "x": -15.5,
-                    "y": 0.0,
-                    "z": -4.0
-                },
-                "Type": "TransformComponent"
-            }
-        },
-        {
-            "NameComponent": {
-                "ID": -2101641892,
+                "ID": 2006970777,
                 "Name": "Brush 0"
             },
             "ParentComponent": {
                 "HasParent": true,
                 "ParentID": 237443808
+            },
+            "TransformComponent": {
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Translation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Type": "TransformComponent"
+            }
+        },
+        {
+            "CameraComponent": {
+                "CameraInstance": {
+                    "AspectRatio": 2.196666717529297,
+                    "Exposure": 1.0,
+                    "Fov": 88.0,
+                    "Speed": 1.0,
+                    "m_Type": 1
+                }
+            },
+            "NameComponent": {
+                "ID": 237481018,
+                "Name": "Camera"
+            },
+            "ParentComponent": {
+                "HasParent": false
+            },
+            "TransformComponent": {
+                "Rotation": {
+                    "x": 0.0,
+                    "y": -0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Translation": {
+                    "x": -1.2834014892578125,
+                    "y": 1.7599999904632568,
+                    "z": -8.625458717346191
+                },
+                "Type": "TransformComponent"
+            },
+            "WrenScriptComponent": {
+                "Class": "CamScript",
+                "Script": "Scripts/Cam.wren"
+            }
+        },
+        {
+            "LightComponent": {
+                "CastShadows": false,
+                "Color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Direction": {
+                    "x": 0.0,
+                    "y": -1.0,
+                    "z": 0.0
+                },
+                "IsVolumetric": false,
+                "Strength": 10.0,
+                "SyncDirectionWithSky": false,
+                "Type": 1
+            },
+            "NameComponent": {
+                "ID": 935481958,
+                "Name": "Light"
+            },
+            "ParentComponent": {
+                "HasParent": true,
+                "ParentID": 237171289
             },
             "TransformComponent": {
                 "Rotation": {
@@ -716,22 +444,22 @@
                 "CastShadows": true,
                 "Color": {
                     "x": 1.0,
-                    "y": 0.958125650882721,
-                    "z": 0.5274261236190796
+                    "y": 1.0,
+                    "z": 1.0
                 },
                 "Direction": {
                     "x": 0.20000000298023224,
                     "y": 0.9591699838638306,
                     "z": 0.20000000298023224
                 },
-                "IsVolumetric": false,
-                "Strength": 6.684000015258789,
+                "IsVolumetric": true,
+                "Strength": 1.940000057220459,
                 "SyncDirectionWithSky": true,
                 "Type": 0
             },
             "NameComponent": {
                 "ID": 3,
-                "Name": "Light"
+                "Name": "Moonlight"
             },
             "ParentComponent": {
                 "HasParent": false
@@ -784,9 +512,9 @@
                     "z": 1.0
                 },
                 "Translation": {
-                    "x": -3.688812017440796,
-                    "y": 1.2999627590179443,
-                    "z": 0.4117790162563324
+                    "x": -1.2833105325698853,
+                    "y": 1.2599999904632568,
+                    "z": -8.625405311584473
                 },
                 "Type": "TransformComponent"
             },
@@ -794,55 +522,15 @@
                 "Class": "PlayerScript",
                 "Script": "Scripts/Player.wren"
             }
-        },
-        {
-            "CameraComponent": {
-                "CameraInstance": {
-                    "AspectRatio": 2.082728624343872,
-                    "Exposure": 1.0,
-                    "Fov": 88.0,
-                    "Speed": 1.0,
-                    "m_Type": 1
-                }
-            },
-            "NameComponent": {
-                "ID": 237481018,
-                "Name": "Camera"
-            },
-            "ParentComponent": {
-                "HasParent": false
-            },
-            "TransformComponent": {
-                "Rotation": {
-                    "x": 0.0,
-                    "y": -0.0,
-                    "z": 0.0
-                },
-                "Scale": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
-                },
-                "Translation": {
-                    "x": -3.688812017440796,
-                    "y": 1.7999627590179443,
-                    "z": 0.4117790162563324
-                },
-                "Type": "TransformComponent"
-            },
-            "WrenScriptComponent": {
-                "Class": "CamScript",
-                "Script": "Scripts/Cam.wren"
-            }
         }
     ],
     "Name": "",
     "m_Environement": {
         "AmbientColor": {
-            "w": 0.0,
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
+            "w": -431602080.0,
+            "x": -431602080.0,
+            "y": -431602080.0,
+            "z": -431602080.0
         },
         "ProceduralSkybox": {
             "AtmosphereRadius": 6380000.0,

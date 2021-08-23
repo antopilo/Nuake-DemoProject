@@ -15,7 +15,7 @@ class PlayerScript is ScriptableEntity {
         _Accel = 150
         _Deccel = 0.85
         _AirDeccel = 0.7
-        _Gravity = 20
+        _Gravity = 5
 
         _MaxSpeed = 20
         _Jump = 400
@@ -37,11 +37,11 @@ class PlayerScript is ScriptableEntity {
         var cam = camEntity.GetComponent("Camera")
 
         var dir = cam.GetDirection()
-        dir.y = 0
+        //dir.y = 0
         dir = dir.Normalize()
 
         var right = cam.GetRight()
-        right.y = 0
+        //right.y = 0
         right = right.Normalize()
 
         var move = _InputDir
@@ -55,21 +55,26 @@ class PlayerScript is ScriptableEntity {
 
         var normal = Physics.Raycast(from, to).Normal
  
-        if(!controller.IsOnGround())  {
-            _Velocity.y = _Velocity.y -_Gravity
-            //_Velocity.x = _Velocity.x * _AirDeccel
-            //_Velocity.z = _Velocity.z * _AirDeccel
-        } else {
-            _Velocity.y = -10
-            
-            if(Input.IsKeyPressed(32)) _Velocity.y = _Jump
-                
+        //if(!controller.IsOnGround())  {
+        //    _Velocity.y = _Velocity.y -_Gravity
+		//	if(Input.IsKeyPressed(32)) _Velocity.y = _Jump
+        //    //_Velocity.x = _Velocity.x * _AirDeccel
+        //    //_Velocity.z = _Velocity.z * _AirDeccel
+        //} else {
+		//_Velocity.y = _Velocity.y -_Gravity
+		
+		if(Input.IsKeyPressed(32)) {
+            _Velocity.y = _Jump
+        } else if(Input.IsKeyPressed(340)) {
+            _Velocity.y = -_Jump
+        } else _Velocity.y = 0
+        
 
-            _Velocity.x = _Velocity.x + new_Velocity.x * _Accel
-            _Velocity.z = _Velocity.z + new_Velocity.z * _Accel
-            _Velocity.x = _Velocity.x * _Deccel
-            _Velocity.z = _Velocity.z * _Deccel
-        }
+		_Velocity.x = _Velocity.x + new_Velocity.x * _Accel
+		_Velocity.z = _Velocity.z + new_Velocity.z * _Accel
+		_Velocity.x = _Velocity.x * _Deccel
+		_Velocity.z = _Velocity.z * _Deccel
+        //}
 
         controller.MoveAndSlide(_Velocity * ts)
     }

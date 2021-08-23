@@ -38,5 +38,6 @@ class Door is Triggerable {
     trigger() {
         _Triggered = true
         _Opening = true
+        Engine.Log("TRIGGERED!")
     }
 }

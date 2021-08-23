@@ -213,7 +213,35 @@
 ( 336 -88 16 ) ( 336 -88 17 ) ( 337 -88 16 ) MyTexturePack/RedGrid 0 0 0 1 1
 ( 336 -104 16 ) ( 337 -104 16 ) ( 336 -103 16 ) MyTexturePack/RedGrid 0 -24 0 1 1
 ( 448 8 64 ) ( 448 9 64 ) ( 449 8 64 ) MyTexturePack/RedGrid 0 -24 0 1 1
-( 448 -24 32 ) ( 449 -24 32 ) ( 448 -24 33 ) MyTexturePack/RedGrid 0 0 0 1 1
+( 448 -32 32 ) ( 449 -32 32 ) ( 448 -32 33 ) MyTexturePack/RedGrid 0 0 0 1 1
 ( 352 8 32 ) ( 352 8 33 ) ( 352 9 32 ) MyTexturePack/RedGrid 24 0 0 1 1
+}
+}
+// entity 3
+{
+"classname" "Trigger"
+"target" "door2"
+// brush 0
+{
+( 416 -104 16 ) ( 416 -103 16 ) ( 416 -104 17 ) MyTexturePack/RedGrid -8 0 0 1 1
+( 528 -88 16 ) ( 528 -88 17 ) ( 529 -88 16 ) MyTexturePack/RedGrid 0 0 0 1 1
+( 528 -104 16 ) ( 529 -104 16 ) ( 528 -103 16 ) MyTexturePack/RedGrid 0 8 0 1 1
+( 640 8 64 ) ( 640 9 64 ) ( 641 8 64 ) MyTexturePack/RedGrid 0 8 0 1 1
+( 640 -24 32 ) ( 641 -24 32 ) ( 640 -24 33 ) MyTexturePack/RedGrid 0 0 0 1 1
+( 544 8 32 ) ( 544 8 33 ) ( 544 9 32 ) MyTexturePack/RedGrid -8 0 0 1 1
+}
+}
+// entity 4
+{
+"classname" "Door"
+"targetname" "door2"
+// brush 0
+{
+( 432 -16 16 ) ( 432 -15 16 ) ( 432 -16 17 ) MyTexturePack/RedGrid -16 0 0 1 1
+( 528 48 16 ) ( 528 48 17 ) ( 529 48 16 ) MyTexturePack/RedGrid -16 0 0 1 1
+( 528 -16 16 ) ( 529 -16 16 ) ( 528 -15 16 ) MyTexturePack/RedGrid -16 16 0 1 1
+( 608 96 32 ) ( 608 97 32 ) ( 609 96 32 ) MyTexturePack/RedGrid -16 16 0 1 1
+( 608 96 32 ) ( 609 96 32 ) ( 608 96 33 ) MyTexturePack/RedGrid -16 0 0 1 1
+( 560 96 32 ) ( 560 96 33 ) ( 560 97 32 ) MyTexturePack/RedGrid -16 0 0 1 1
 }
 }
