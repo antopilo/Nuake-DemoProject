@@ -52,8 +52,10 @@ class CamScript is ScriptableEntity {
         var camY = Math.Sin(rad_pitch)
         var camZ = Math.Sin(rad_yaw) * Math.Cos(rad_pitch)
 
+
         var newDir = Vector3.new(camX, camY, camZ)
 
+		
 
         var player = Scene.GetEntity("Player")
         
@@ -76,6 +78,8 @@ class CamScript is ScriptableEntity {
         var newY = camYz + 0.08 * ((pPos.y + _CamHeight) - camYz)
         var transform = this.GetComponent("Transform")
         var newPos = Vector3.new(pPos.x, (pPos.y + _CamHeight), pPos.z)
+		var newRot = Vector3.new(0, -_Yaw, _Pitch)
+		transform.SetRotation(newRot)
         transform.SetTranslation(newPos)
 
         cam.SetDirection(newDir)
