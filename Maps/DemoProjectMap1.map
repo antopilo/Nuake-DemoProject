@@ -11,8 +11,8 @@
 ( -336 -3072 -16 ) ( -336 -3072 -15 ) ( -335 -3072 -16 ) MyTexturePack/GreenGrid 16 0 0 1 1
 ( -336 -432 -16 ) ( -335 -432 -16 ) ( -336 -431 -16 ) MyTexturePack/GreenGrid 272 -368 0 1 1
 ( -208 -304 16 ) ( -208 -303 16 ) ( -207 -304 16 ) MyTexturePack/GreenGrid 272 -368 0 1 1
-( -208 1088 16 ) ( -207 1088 16 ) ( -208 1088 17 ) MyTexturePack/GreenGrid 16 0 0 1 1
-( 1600 -304 16 ) ( 1600 -304 17 ) ( 1600 -303 16 ) MyTexturePack/GreenGrid 16 0 0 1 1
+( -208 2224 16 ) ( -207 2224 16 ) ( -208 2224 17 ) MyTexturePack/GreenGrid 16 0 0 1 1
+( 2656 -304 16 ) ( 2656 -304 17 ) ( 2656 -303 16 ) MyTexturePack/GreenGrid 16 0 0 1 1
 }
 // brush 1
 {
@@ -79,31 +79,14 @@
 }
 // brush 8
 {
-( -704 128 16 ) ( -704 129 16 ) ( -704 128 17 ) MyTexturePack/BlueGrid 0 16 0 1 1
-( -512 56 16 ) ( -512 56 17 ) ( -511 56 16 ) MyTexturePack/BlueGrid 0 16 0 1 1
-( -512 128 16 ) ( -511 128 16 ) ( -512 129 16 ) MyTexturePack/BlueGrid 0 0 0 1 1
-( -512 256 16 ) ( -384 128 80 ) ( -512 128 80 ) MyTexturePack/BlueGrid 0 0 0 1 1
-( -320 384 80 ) ( -320 384 81 ) ( -320 385 80 ) MyTexturePack/BlueGrid 0 16 0 1 1
+( 896 -496 0 ) ( 896 -495 0 ) ( 896 -496 1 ) MyTexturePack/RedGrid 0 0 0 1 1
+( 896 -720 0 ) ( 896 -720 1 ) ( 897 -720 0 ) MyTexturePack/RedGrid 0 0 0 1 1
+( 896 -496 0 ) ( 897 -496 0 ) ( 896 -495 0 ) MyTexturePack/RedGrid 0 0 0 1 1
+( 960 -176 192 ) ( 960 -175 192 ) ( 961 -176 192 ) MyTexturePack/RedGrid 0 0 0 1 1
+( 960 -176 32 ) ( 961 -176 32 ) ( 960 -176 33 ) MyTexturePack/RedGrid 0 0 0 1 1
+( 1600 -176 32 ) ( 1600 -176 33 ) ( 1600 -175 32 ) MyTexturePack/RedGrid 0 0 0 1 1
 }
 // brush 9
-{
-( -704 384 216 ) ( -704 383 216 ) ( -704 384 215 ) MyTexturePack/BlueGrid 0 -24 180 1 1
-( -320 56 152 ) ( -319 56 152 ) ( -320 56 151 ) MyTexturePack/BlueGrid 0 -24 0 1 -1
-( -320 232 216 ) ( -192 56 136 ) ( -320 56 136 ) MyTexturePack/BlueGrid 0 0 0 1 -1
-( -512 384 216 ) ( -511 384 216 ) ( -512 383 216 ) MyTexturePack/BlueGrid 0 0 0 1 -1
-( -512 128 152 ) ( -384 256 216 ) ( -512 256 216 ) MyTexturePack/BlueGrid 0 0 0 1 -1
-( -320 128 152 ) ( -320 128 151 ) ( -320 127 152 ) MyTexturePack/BlueGrid 0 -24 180 1 1
-}
-// brush 10
-{
-( 896 -480 0 ) ( 896 -479 0 ) ( 896 -480 1 ) MyTexturePack/RedGrid 0 0 0 1 1
-( 896 -704 0 ) ( 896 -704 1 ) ( 897 -704 0 ) MyTexturePack/RedGrid 0 0 0 1 1
-( 896 -480 0 ) ( 897 -480 0 ) ( 896 -479 0 ) MyTexturePack/RedGrid 0 0 0 1 1
-( 960 -160 192 ) ( 960 -159 192 ) ( 961 -160 192 ) MyTexturePack/RedGrid 0 0 0 1 1
-( 960 -160 32 ) ( 961 -160 32 ) ( 960 -160 33 ) MyTexturePack/RedGrid 0 0 0 1 1
-( 1344 -160 32 ) ( 1344 -160 33 ) ( 1344 -159 32 ) MyTexturePack/RedGrid 0 0 0 1 1
-}
-// brush 11
 {
 ( 960 -176 32 ) ( 960 -176 33 ) ( 960 -177 32 ) MyTexturePack/BlueGrid 0 0 0 1 1
 ( 960 -176 32 ) ( 959 -176 32 ) ( 960 -176 33 ) MyTexturePack/BlueGrid 0 0 0 1 1
@@ -112,7 +95,7 @@
 ( 992 -16 0 ) ( 992 -16 1 ) ( 991 -16 0 ) MyTexturePack/BlueGrid 0 0 0 1 1
 ( 992 -16 0 ) ( 992 -17 0 ) ( 992 -16 1 ) MyTexturePack/BlueGrid 0 0 0 1 1
 }
-// brush 12
+// brush 10
 {
 ( 928 -176 32 ) ( 928 -176 33 ) ( 928 -177 32 ) MyTexturePack/BlueGrid 0 0 0 1 1
 ( 928 -176 32 ) ( 927 -176 32 ) ( 928 -176 33 ) MyTexturePack/BlueGrid 0 0 0 1 1
@@ -121,7 +104,7 @@
 ( 960 -16 0 ) ( 960 -16 1 ) ( 959 -16 0 ) MyTexturePack/BlueGrid 0 0 0 1 1
 ( 960 -16 0 ) ( 960 -17 0 ) ( 960 -16 1 ) MyTexturePack/BlueGrid 0 0 0 1 1
 }
-// brush 13
+// brush 11
 {
 ( 896 -176 32 ) ( 896 -176 33 ) ( 896 -177 32 ) MyTexturePack/BlueGrid 0 0 0 1 1
 ( 896 -176 32 ) ( 895 -176 32 ) ( 896 -176 33 ) MyTexturePack/BlueGrid 0 0 0 1 1
@@ -130,7 +113,7 @@
 ( 928 -16 0 ) ( 928 -16 1 ) ( 927 -16 0 ) MyTexturePack/BlueGrid 0 0 0 1 1
 ( 928 -16 0 ) ( 928 -17 0 ) ( 928 -16 1 ) MyTexturePack/BlueGrid 0 0 0 1 1
 }
-// brush 14
+// brush 12
 {
 ( 1056 -176 80 ) ( 1056 -176 81 ) ( 1056 -177 80 ) MyTexturePack/BlueGrid 0 0 0 1 1
 ( 1056 -176 80 ) ( 1055 -176 80 ) ( 1056 -176 81 ) MyTexturePack/BlueGrid 0 0 0 1 1
@@ -139,7 +122,7 @@
 ( 1088 -16 48 ) ( 1088 -16 49 ) ( 1087 -16 48 ) MyTexturePack/BlueGrid 0 0 0 1 1
 ( 1088 -16 48 ) ( 1088 -17 48 ) ( 1088 -16 49 ) MyTexturePack/BlueGrid 0 0 0 1 1
 }
-// brush 15
+// brush 13
 {
 ( 1024 -176 80 ) ( 1024 -176 81 ) ( 1024 -177 80 ) MyTexturePack/BlueGrid 0 0 0 1 1
 ( 1024 -176 80 ) ( 1023 -176 80 ) ( 1024 -176 81 ) MyTexturePack/BlueGrid 0 0 0 1 1
@@ -148,7 +131,7 @@
 ( 1056 -16 48 ) ( 1056 -16 49 ) ( 1055 -16 48 ) MyTexturePack/BlueGrid 0 0 0 1 1
 ( 1056 -16 48 ) ( 1056 -17 48 ) ( 1056 -16 49 ) MyTexturePack/BlueGrid 0 0 0 1 1
 }
-// brush 16
+// brush 14
 {
 ( 992 -176 80 ) ( 992 -176 81 ) ( 992 -177 80 ) MyTexturePack/BlueGrid 0 0 0 1 1
 ( 992 -176 80 ) ( 991 -176 80 ) ( 992 -176 81 ) MyTexturePack/BlueGrid 0 0 0 1 1
@@ -157,7 +140,7 @@
 ( 1024 -16 48 ) ( 1024 -16 49 ) ( 1023 -16 48 ) MyTexturePack/BlueGrid 0 0 0 1 1
 ( 1024 -16 48 ) ( 1024 -17 48 ) ( 1024 -16 49 ) MyTexturePack/BlueGrid 0 0 0 1 1
 }
-// brush 17
+// brush 15
 {
 ( 1152 -176 128 ) ( 1152 -176 129 ) ( 1152 -177 128 ) MyTexturePack/BlueGrid 0 0 0 1 1
 ( 1152 -176 128 ) ( 1151 -176 128 ) ( 1152 -176 129 ) MyTexturePack/BlueGrid 0 0 0 1 1
@@ -166,7 +149,7 @@
 ( 1184 -16 96 ) ( 1184 -16 97 ) ( 1183 -16 96 ) MyTexturePack/BlueGrid 0 0 0 1 1
 ( 1184 -16 96 ) ( 1184 -17 96 ) ( 1184 -16 97 ) MyTexturePack/BlueGrid 0 0 0 1 1
 }
-// brush 18
+// brush 16
 {
 ( 1120 -176 128 ) ( 1120 -176 129 ) ( 1120 -177 128 ) MyTexturePack/BlueGrid 0 0 0 1 1
 ( 1120 -176 128 ) ( 1119 -176 128 ) ( 1120 -176 129 ) MyTexturePack/BlueGrid 0 0 0 1 1
@@ -175,7 +158,7 @@
 ( 1152 -16 96 ) ( 1152 -16 97 ) ( 1151 -16 96 ) MyTexturePack/BlueGrid 0 0 0 1 1
 ( 1152 -16 96 ) ( 1152 -17 96 ) ( 1152 -16 97 ) MyTexturePack/BlueGrid 0 0 0 1 1
 }
-// brush 19
+// brush 17
 {
 ( 1088 -176 128 ) ( 1088 -176 129 ) ( 1088 -177 128 ) MyTexturePack/BlueGrid 0 0 0 1 1
 ( 1088 -176 128 ) ( 1087 -176 128 ) ( 1088 -176 129 ) MyTexturePack/BlueGrid 0 0 0 1 1
@@ -184,7 +167,7 @@
 ( 1120 -16 96 ) ( 1120 -16 97 ) ( 1119 -16 96 ) MyTexturePack/BlueGrid 0 0 0 1 1
 ( 1120 -16 96 ) ( 1120 -17 96 ) ( 1120 -16 97 ) MyTexturePack/BlueGrid 0 0 0 1 1
 }
-// brush 20
+// brush 18
 {
 ( 1216 -176 176 ) ( 1216 -176 177 ) ( 1216 -177 176 ) MyTexturePack/BlueGrid 0 0 0 1 1
 ( 1216 -176 176 ) ( 1215 -176 176 ) ( 1216 -176 177 ) MyTexturePack/BlueGrid 0 0 0 1 1
@@ -193,7 +176,7 @@
 ( 1248 -16 144 ) ( 1248 -16 145 ) ( 1247 -16 144 ) MyTexturePack/BlueGrid 0 0 0 1 1
 ( 1344 -16 144 ) ( 1344 -17 144 ) ( 1344 -16 145 ) MyTexturePack/BlueGrid 0 0 0 1 1
 }
-// brush 21
+// brush 19
 {
 ( 1184 -176 176 ) ( 1184 -176 177 ) ( 1184 -177 176 ) MyTexturePack/BlueGrid 0 0 0 1 1
 ( 1184 -176 176 ) ( 1183 -176 176 ) ( 1184 -176 177 ) MyTexturePack/BlueGrid 0 0 0 1 1
@@ -202,6 +185,87 @@
 ( 1216 -16 144 ) ( 1216 -16 145 ) ( 1215 -16 144 ) MyTexturePack/BlueGrid 0 0 0 1 1
 ( 1216 -16 144 ) ( 1216 -17 144 ) ( 1216 -16 145 ) MyTexturePack/BlueGrid 0 0 0 1 1
 }
+// brush 20
+{
+( 1344 -176 16 ) ( 1344 -175 16 ) ( 1344 -176 17 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( 1344 -176 16 ) ( 1344 -176 17 ) ( 1345 -176 16 ) __TB_empty 0 0 0 1 1
+( 1344 -176 16 ) ( 1345 -176 16 ) ( 1344 -175 16 ) __TB_empty 0 0 0 1 1
+( 1600 416 192 ) ( 1600 417 192 ) ( 1601 416 192 ) MyTexturePack/RedGrid 0 0 0 1 1
+( 1600 1088 32 ) ( 1601 1088 32 ) ( 1600 1088 33 ) __TB_empty 0 0 0 1 1
+( 1600 416 32 ) ( 1600 416 33 ) ( 1600 417 32 ) __TB_empty 0 0 0 1 1
+}
+// brush 21
+{
+( 80 248 0 ) ( 80 249 0 ) ( 80 248 1 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( 80 248 0 ) ( 80 248 1 ) ( 81 248 0 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( 80 248 16 ) ( 81 248 16 ) ( 80 249 16 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( 240 280 128 ) ( 240 281 128 ) ( 241 280 128 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( 240 280 32 ) ( 241 280 32 ) ( 240 280 33 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( 240 280 32 ) ( 240 280 33 ) ( 240 281 32 ) MyTexturePack/BlueGrid 0 0 0 1 1
+}
+// brush 22
+{
+( 416 248 0 ) ( 416 249 0 ) ( 416 248 1 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( 416 248 0 ) ( 416 248 1 ) ( 417 248 0 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( 416 248 16 ) ( 417 248 16 ) ( 416 249 16 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( 576 280 128 ) ( 576 281 128 ) ( 577 280 128 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( 576 280 32 ) ( 577 280 32 ) ( 576 280 33 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( 576 280 32 ) ( 576 280 33 ) ( 576 281 32 ) MyTexturePack/BlueGrid 0 0 0 1 1
+}
+// brush 23
+{
+( 80 248 128 ) ( 80 249 128 ) ( 80 248 129 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( 80 248 128 ) ( 80 248 129 ) ( 81 248 128 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( 80 248 128 ) ( 81 248 128 ) ( 80 249 128 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( 576 280 192 ) ( 576 281 192 ) ( 577 280 192 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( 576 280 144 ) ( 577 280 144 ) ( 576 280 145 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( 576 280 144 ) ( 576 280 145 ) ( 576 281 144 ) MyTexturePack/BlueGrid 0 0 0 1 1
+}
+// brush 24
+{
+( 312 120 16 ) ( 312 121 16 ) ( 312 120 17 ) MyTexturePack/OrangeGrid 0 0 0 1 1
+( 312 120 16 ) ( 312 120 17 ) ( 313 120 16 ) MyTexturePack/OrangeGrid 0 0 0 1 1
+( 312 120 16 ) ( 313 120 16 ) ( 312 121 16 ) MyTexturePack/OrangeGrid 0 0 0 1 1
+( 352 168 20 ) ( 352 169 20 ) ( 353 168 20 ) MyTexturePack/OrangeGrid 0 0 0 1 1
+( 352 168 24 ) ( 353 168 24 ) ( 352 168 25 ) MyTexturePack/OrangeGrid 0 0 0 1 1
+( 360 168 24 ) ( 360 168 25 ) ( 360 169 24 ) MyTexturePack/OrangeGrid 0 0 0 1 1
+}
+// brush 25
+{
+( 328 440 16 ) ( 328 441 16 ) ( 328 440 17 ) MyTexturePack/OrangeGrid 0 0 0 1 1
+( 320 456 16 ) ( 320 456 17 ) ( 321 456 16 ) MyTexturePack/OrangeGrid 0 0 0 1 1
+( 320 440 16 ) ( 321 440 16 ) ( 320 441 16 ) MyTexturePack/OrangeGrid 0 0 0 1 1
+( 336 472 40 ) ( 336 473 40 ) ( 337 472 40 ) MyTexturePack/OrangeGrid 0 0 0 1 1
+( 336 464 32 ) ( 337 464 32 ) ( 336 464 33 ) MyTexturePack/OrangeGrid 0 0 0 1 1
+( 336 472 32 ) ( 336 472 33 ) ( 336 473 32 ) MyTexturePack/OrangeGrid 0 0 0 1 1
+}
+// brush 26
+{
+( 320 452 32 ) ( 320 453 32 ) ( 320 452 33 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( 320 452 32 ) ( 320 452 33 ) ( 321 452 32 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( 320 452 32 ) ( 321 452 32 ) ( 320 453 32 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( 336 468 60 ) ( 336 469 60 ) ( 337 468 60 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( 336 468 48 ) ( 337 468 48 ) ( 336 468 49 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( 344 468 48 ) ( 344 468 49 ) ( 344 469 48 ) MyTexturePack/BlueGrid 0 0 0 1 1
+}
+// brush 27
+{
+( 316 452 60 ) ( 316 453 60 ) ( 316 452 61 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( 320 452 60 ) ( 320 452 61 ) ( 321 452 60 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( 320 452 60 ) ( 321 452 60 ) ( 320 453 60 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( 348 468 72 ) ( 348 469 72 ) ( 349 468 72 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( 348 468 64 ) ( 349 468 64 ) ( 348 468 65 ) MyTexturePack/BlueGrid 0 0 0 1 1
+( 348 468 64 ) ( 348 468 65 ) ( 348 469 64 ) MyTexturePack/BlueGrid 0 0 0 1 1
+}
+// brush 28
+{
+( 324 456 72 ) ( 324 457 72 ) ( 324 456 73 ) MyTexturePack/OrangeGrid 0 0 0 1 1
+( 324 456 72 ) ( 324 456 73 ) ( 325 456 72 ) MyTexturePack/OrangeGrid 0 0 0 1 1
+( 324 456 72 ) ( 325 456 72 ) ( 324 457 72 ) MyTexturePack/OrangeGrid 0 0 0 1 1
+( 340 464 88 ) ( 340 465 88 ) ( 341 464 88 ) MyTexturePack/OrangeGrid 0 0 0 1 1
+( 340 464 76 ) ( 341 464 76 ) ( 340 464 77 ) MyTexturePack/OrangeGrid 0 0 0 1 1
+( 340 464 76 ) ( 340 464 77 ) ( 340 465 76 ) MyTexturePack/OrangeGrid 0 0 0 1 1
+}
 }
 // entity 1
 {
@@ -209,12 +273,12 @@
 "target" "door2"
 // brush 0
 {
-( 416 -104 16 ) ( 416 -103 16 ) ( 416 -104 17 ) MyTexturePack/RedGrid -8 0 0 1 1
-( 528 -88 16 ) ( 528 -88 17 ) ( 529 -88 16 ) MyTexturePack/RedGrid 0 0 0 1 1
-( 528 -104 16 ) ( 529 -104 16 ) ( 528 -103 16 ) MyTexturePack/RedGrid 0 8 0 1 1
-( 640 8 64 ) ( 640 9 64 ) ( 641 8 64 ) MyTexturePack/RedGrid 0 8 0 1 1
-( 640 -24 32 ) ( 641 -24 32 ) ( 640 -24 33 ) MyTexturePack/RedGrid 0 0 0 1 1
-( 544 8 32 ) ( 544 8 33 ) ( 544 9 32 ) MyTexturePack/RedGrid -8 0 0 1 1
+( 784 -320 16 ) ( 784 -319 16 ) ( 784 -320 17 ) MyTexturePack/OrangeGrid -8 0 0 1 1
+( 880 -312 16 ) ( 880 -312 17 ) ( 881 -312 16 ) MyTexturePack/OrangeGrid 0 0 0 1 1
+( 880 -320 32 ) ( 881 -320 32 ) ( 880 -319 32 ) MyTexturePack/OrangeGrid 0 8 0 1 1
+( 992 -208 64 ) ( 992 -207 64 ) ( 993 -208 64 ) MyTexturePack/OrangeGrid 0 8 0 1 1
+( 992 -200 32 ) ( 993 -200 32 ) ( 992 -200 33 ) MyTexturePack/OrangeGrid 0 0 0 1 1
+( 896 -208 32 ) ( 896 -208 33 ) ( 896 -207 32 ) MyTexturePack/OrangeGrid -8 0 0 1 1
 }
 }
 // entity 2
@@ -223,12 +287,12 @@
 "targetname" "door2"
 // brush 0
 {
-( 432 -16 16 ) ( 432 -15 16 ) ( 432 -16 17 ) MyTexturePack/RedGrid -16 0 0 1 1
-( 528 48 16 ) ( 528 48 17 ) ( 529 48 16 ) MyTexturePack/RedGrid -16 0 0 1 1
-( 528 -16 16 ) ( 529 -16 16 ) ( 528 -15 16 ) MyTexturePack/RedGrid -16 16 0 1 1
-( 608 96 32 ) ( 608 97 32 ) ( 609 96 32 ) MyTexturePack/RedGrid -16 16 0 1 1
-( 608 96 32 ) ( 609 96 32 ) ( 608 96 33 ) MyTexturePack/RedGrid -16 0 0 1 1
-( 560 96 32 ) ( 560 96 33 ) ( 560 97 32 ) MyTexturePack/RedGrid -16 0 0 1 1
+( 768 -288 16 ) ( 768 -287 16 ) ( 768 -288 17 ) MyTexturePack/RedGrid -16 0 0 1 1
+( 864 -344 16 ) ( 864 -344 17 ) ( 865 -344 16 ) MyTexturePack/RedGrid -16 0 0 1 1
+( 864 -288 16 ) ( 865 -288 16 ) ( 864 -287 16 ) MyTexturePack/RedGrid -16 16 0 1 1
+( 944 -176 24 ) ( 944 -175 24 ) ( 945 -176 24 ) MyTexturePack/RedGrid -16 16 0 1 1
+( 944 -176 32 ) ( 945 -176 32 ) ( 944 -176 33 ) MyTexturePack/RedGrid -16 0 0 1 1
+( 896 -176 32 ) ( 896 -176 33 ) ( 896 -175 32 ) MyTexturePack/RedGrid -16 0 0 1 1
 }
 }
 // entity 3
@@ -236,7 +300,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Hut"
-"_tb_id" "5"
+"_tb_id" "7"
 // brush 0
 {
 ( 96 -400 16 ) ( 96 -400 17 ) ( 96 -401 16 ) MyTexturePack/BlueGrid -16 0 180 1 -1
@@ -304,5 +368,33 @@
 ( 336 -320 240 ) ( 336 -560 144 ) ( 96 -560 144 ) MyTexturePack/BlueGrid -16 -16 270 1 1
 ( 96 -560 128 ) ( 336 -560 128 ) ( 336 -320 224 ) MyTexturePack/BlueGrid -16 -16 270 1 1
 ( 336 -320 224 ) ( 336 -560 128 ) ( 336 -560 144 ) MyTexturePack/BlueGrid -16 0 180 1 -1
+}
+}
+// entity 4
+{
+"classname" "Door"
+"targetname" "thedoor"
+// brush 0
+{
+( 240 256 16 ) ( 240 257 16 ) ( 240 256 17 ) MyTexturePack/OrangeGrid 0 0 0 1 1
+( 240 256 16 ) ( 240 256 17 ) ( 241 256 16 ) MyTexturePack/OrangeGrid 0 0 0 1 1
+( 240 256 16 ) ( 241 256 16 ) ( 240 257 16 ) MyTexturePack/OrangeGrid 0 0 0 1 1
+( 416 272 128 ) ( 416 273 128 ) ( 417 272 128 ) MyTexturePack/OrangeGrid 0 0 0 1 1
+( 416 272 24 ) ( 417 272 24 ) ( 416 272 25 ) MyTexturePack/OrangeGrid 0 0 0 1 1
+( 416 272 24 ) ( 416 272 25 ) ( 416 273 24 ) MyTexturePack/OrangeGrid 0 0 0 1 1
+}
+}
+// entity 5
+{
+"classname" "Trigger"
+"target" "thedoor"
+// brush 0
+{
+( 312 120 20 ) ( 312 121 20 ) ( 312 120 21 ) MyTexturePack/OrangeGrid 0 0 0 1 1
+( 312 120 20 ) ( 312 120 21 ) ( 313 120 20 ) MyTexturePack/OrangeGrid 0 0 0 1 1
+( 312 120 20 ) ( 313 120 20 ) ( 312 121 20 ) MyTexturePack/OrangeGrid 0 0 0 1 1
+( 360 168 32 ) ( 360 169 32 ) ( 361 168 32 ) MyTexturePack/OrangeGrid 0 0 0 1 1
+( 360 168 24 ) ( 361 168 24 ) ( 360 168 25 ) MyTexturePack/OrangeGrid 0 0 0 1 1
+( 360 168 24 ) ( 360 168 25 ) ( 360 169 24 ) MyTexturePack/OrangeGrid 0 0 0 1 1
 }
 }

@@ -2,12 +2,38 @@
     height: 100%;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: end;
     flex-direction: row;
-    align-content:flex-start;
+    align-content: flex-end;
 }
 
+.wrapper {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-content: flex-end;
+
+}
+
+.wrapper2 {
+	background-color: 255 0 0 255;
+	padding: 8px 8px 8px 8px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.item {
+	background-color: 255 255 0 255;
+	height: 60px;
+	width: 60px;
+}
 .rect{
     height: 200px;
     width: 200px;
 }
+
+
