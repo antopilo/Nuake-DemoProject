@@ -45,5 +45,17 @@
             "Solid": false,
             "Visible": false
         }
+    ],
+    "PointEntities": [
+        {
+            "Description": "",
+            "Name": "Light",
+            "Prefab": "Prefabs/light.prefab"
+        },
+        {
+            "Description": "",
+            "Name": "Suit",
+            "Prefab": "Prefabs/model.prefab"
+        }
     ]
 }

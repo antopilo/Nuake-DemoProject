@@ -2,12 +2,12 @@
     "Entities": [
         {
             "NameComponent": {
-                "ID": 531634719,
+                "ID": 411114551,
                 "Name": "WorldSpawn"
             },
             "ParentComponent": {
                 "HasParent": true,
-                "ParentID": 531634181
+                "ParentID": 411114061
             },
             "TransformComponent": {
                 "Rotation": {
@@ -30,7 +30,7 @@
         },
         {
             "NameComponent": {
-                "ID": 531634181,
+                "ID": 411114061,
                 "Name": "Brush 3"
             },
             "ParentComponent": {
@@ -58,12 +58,12 @@
         },
         {
             "NameComponent": {
-                "ID": 531626164,
+                "ID": 411104952,
                 "Name": "door2"
             },
             "ParentComponent": {
                 "HasParent": true,
-                "ParentID": 531623367
+                "ParentID": 411102670
             },
             "TransformComponent": {
                 "Rotation": {
@@ -78,7 +78,7 @@
                 },
                 "Translation": {
                     "x": 1.125,
-                    "y": 4.43055534362793,
+                    "y": 0.375,
                     "z": 7.75
                 },
                 "Type": "TransformComponent"
@@ -90,7 +90,7 @@
         },
         {
             "NameComponent": {
-                "ID": 531623367,
+                "ID": 411102670,
                 "Name": "Brush 2"
             },
             "ParentComponent": {
@@ -118,12 +118,12 @@
         },
         {
             "NameComponent": {
-                "ID": 531614375,
+                "ID": 411088917,
                 "Name": "Trigger"
             },
             "ParentComponent": {
                 "HasParent": true,
-                "ParentID": 531613539
+                "ParentID": 411088051
             },
             "TransformComponent": {
                 "Rotation": {
@@ -150,7 +150,7 @@
         },
         {
             "NameComponent": {
-                "ID": 531613539,
+                "ID": 411088051,
                 "Name": "Brush 1"
             },
             "ParentComponent": {
@@ -178,12 +178,12 @@
         },
         {
             "NameComponent": {
-                "ID": 531591554,
+                "ID": 411068414,
                 "Name": "WorldSpawn"
             },
             "ParentComponent": {
                 "HasParent": true,
-                "ParentID": 531590915
+                "ParentID": 411068065
             },
             "TransformComponent": {
                 "Rotation": {
@@ -206,7 +206,7 @@
         },
         {
             "NameComponent": {
-                "ID": 531590915,
+                "ID": 411068065,
                 "Name": "Brush 0"
             },
             "ParentComponent": {
@@ -233,9 +233,26 @@
             }
         },
         {
+            "LightComponent": {
+                "CastShadows": false,
+                "Color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Direction": {
+                    "x": 0.0,
+                    "y": -1.0,
+                    "z": 0.0
+                },
+                "IsVolumetric": false,
+                "Strength": 0.0,
+                "SyncDirectionWithSky": false,
+                "Type": 1
+            },
             "NameComponent": {
-                "ID": -1669303932,
-                "Name": "Shotgun"
+                "ID": 863452687,
+                "Name": "MuzzleFlash"
             },
             "ParentComponent": {
                 "HasParent": true,
@@ -248,20 +265,99 @@
                     "z": 0.0
                 },
                 "Scale": {
-                    "x": 0.019999999552965164,
-                    "y": 0.019999999552965164,
-                    "z": 0.019999999552965164
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
                 },
                 "Translation": {
-                    "x": 0.6200000047683716,
-                    "y": -0.8799999952316284,
-                    "z": 0.20000000298023224
+                    "x": 1.190000057220459,
+                    "y": -0.25,
+                    "z": 0.07999999821186066
                 },
                 "Type": "TransformComponent"
             },
             "WrenScriptComponent": {
-                "Class": "",
-                "Script": ""
+                "Class": "Shotgun",
+                "Script": "Scripts/Shotgun.wren"
+            }
+        },
+        {
+            "NameComponent": {
+                "ID": 237443808,
+                "Name": "Trenchbroom map"
+            },
+            "ParentComponent": {
+                "HasParent": false
+            },
+            "QuakeMapComponent": {
+                "HasCollisions": true,
+                "Path": "Maps/DemoProjectMap1.map"
+            },
+            "TransformComponent": {
+                "Rotation": {
+                    "x": 0.0,
+                    "y": -0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Translation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Type": "TransformComponent"
+            }
+        },
+        {
+            "LightComponent": {
+                "CastShadows": true,
+                "Color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Direction": {
+                    "x": 0.20000000298023224,
+                    "y": 0.9591699838638306,
+                    "z": 0.20000000298023224
+                },
+                "IsVolumetric": true,
+                "Strength": 1.940000057220459,
+                "SyncDirectionWithSky": true,
+                "Type": 0
+            },
+            "NameComponent": {
+                "ID": 3,
+                "Name": "Moonlight"
+            },
+            "ParentComponent": {
+                "HasParent": false
+            },
+            "TransformComponent": {
+                "Rotation": {
+                    "x": 0.0,
+                    "y": -0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Translation": {
+                    "x": 0.0,
+                    "y": 17.93589973449707,
+                    "z": 0.0
+                },
+                "Type": "TransformComponent"
+            },
+            "WrenScriptComponent": {
+                "Class": "TestScript",
+                "Script": "Scripts/entityScript.wren"
             }
         },
         {
@@ -349,85 +445,6 @@
             }
         },
         {
-            "NameComponent": {
-                "ID": 237443808,
-                "Name": "Trenchbroom map"
-            },
-            "ParentComponent": {
-                "HasParent": false
-            },
-            "QuakeMapComponent": {
-                "HasCollisions": true,
-                "Path": "Maps/DemoProjectMap1.map"
-            },
-            "TransformComponent": {
-                "Rotation": {
-                    "x": 0.0,
-                    "y": -0.0,
-                    "z": 0.0
-                },
-                "Scale": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
-                },
-                "Translation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                },
-                "Type": "TransformComponent"
-            }
-        },
-        {
-            "LightComponent": {
-                "CastShadows": true,
-                "Color": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
-                },
-                "Direction": {
-                    "x": 0.20000000298023224,
-                    "y": 0.9591699838638306,
-                    "z": 0.20000000298023224
-                },
-                "IsVolumetric": true,
-                "Strength": 1.940000057220459,
-                "SyncDirectionWithSky": true,
-                "Type": 0
-            },
-            "NameComponent": {
-                "ID": 3,
-                "Name": "Moonlight"
-            },
-            "ParentComponent": {
-                "HasParent": false
-            },
-            "TransformComponent": {
-                "Rotation": {
-                    "x": 0.0,
-                    "y": -0.0,
-                    "z": 0.0
-                },
-                "Scale": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
-                },
-                "Translation": {
-                    "x": 0.0,
-                    "y": 17.93589973449707,
-                    "z": 0.0
-                },
-                "Type": "TransformComponent"
-            },
-            "WrenScriptComponent": {
-                "Class": "TestScript",
-                "Script": "Scripts/entityScript.wren"
-            }
-        },
-        {
             "CharacterControllerComponent": {
                 "Height": 1.2000000476837158,
                 "Mass": 2500.0,
@@ -464,26 +481,12 @@
             }
         },
         {
-            "LightComponent": {
-                "CastShadows": false,
-                "Color": {
-                    "x": 1.0,
-                    "y": 0.10126543045043945,
-                    "z": 0.0
-                },
-                "Direction": {
-                    "x": 0.0,
-                    "y": -1.0,
-                    "z": 0.0
-                },
-                "IsVolumetric": false,
-                "Strength": 0.0,
-                "SyncDirectionWithSky": false,
-                "Type": 1
+            "MeshComponent": {
+                "ModelPath": "Models/shotgun.gltf"
             },
             "NameComponent": {
-                "ID": 863452687,
-                "Name": "MuzzleFlash"
+                "ID": -1669303932,
+                "Name": "Shotgun"
             },
             "ParentComponent": {
                 "HasParent": true,
@@ -496,20 +499,20 @@
                     "z": 0.0
                 },
                 "Scale": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
+                    "x": 0.019999999552965164,
+                    "y": 0.019999999552965164,
+                    "z": 0.019999999552965164
                 },
                 "Translation": {
-                    "x": 1.190000057220459,
-                    "y": -0.25,
-                    "z": 0.07999999821186066
+                    "x": 0.6200000047683716,
+                    "y": -0.8799999952316284,
+                    "z": 0.20000000298023224
                 },
                 "Type": "TransformComponent"
             },
             "WrenScriptComponent": {
-                "Class": "Shotgun",
-                "Script": "Scripts/Shotgun.wren"
+                "Class": "",
+                "Script": ""
             }
         }
     ],
