@@ -21,10 +21,11 @@ class CamScript is ScriptableEntity {
         Input.HideMouse()
     }
 
-    init() {}
+    init() {
+
+    }
 
     update(ts) {
-        _deltaTime = _deltaTime + ts
         var x = Input.GetMouseX()
         var my = Input.GetMouseY()
 
@@ -52,41 +53,19 @@ class CamScript is ScriptableEntity {
         var camY = Math.Sin(rad_pitch)
         var camZ = Math.Sin(rad_yaw) * Math.Cos(rad_pitch)
 
-
         var newDir = Vector3.new(camX, camY, camZ)
 
-		
-
-        var player = Scene.GetEntity("Player")
-        
         var camTransform = this.GetComponent("Transform")
         var camPoss = camTransform.GetTranslation()
-        var camYz = camPoss.y
 
-        var playerScript = player.GetComponent("Script")
-        var velocity = playerScript.Velocity.Duplicate()
-        velocity.y = 0 // Dont count gravity in bob.
-        velocity = velocity.Sqrt()
-
-        var amount = (Math.Sin(_deltaTime * (velocity * 0.01)) / 2 + 1)  * _BobHeight
-        //Engine.Log("BobAmount: %(amount)")
-
-        var pTransform = player.GetComponent("Transform")
-        var pPos = pTransform.GetTranslation()
-        if(amount < 1 && amount > -1) amount = 0
-        
-        var newY = camYz + 0.08 * ((pPos.y + _CamHeight) - camYz)
         var transform = this.GetComponent("Transform")
-        var newPos = Vector3.new(pPos.x, (pPos.y + _CamHeight), pPos.z)
-		var newRot = Vector3.new(0, -_Yaw, _Pitch)
+        //var newPos = Vector3.new(pPos.x, _CamHeight, pPos.z)
+		var newRot = Vector3.new(-_Pitch, _Yaw, 0)
 		transform.SetRotation(newRot)
-        transform.SetTranslation(newPos)
-
-        cam.SetDirection(newDir)
     }
 
     fixedUpdate(ts) {
-
+        _deltaTime = _deltaTime + ts
     }
 
     exit() {}

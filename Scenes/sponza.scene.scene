@@ -1,0 +1,158 @@
+{
+    "Entities": [
+        {
+            "ModelComponent": {
+                "ModelPath": "Models/sponza/Sponza.gltf",
+                "ModelResource": {
+                    "Path": "C:\\Dev\\Nuake-DemoProject\\test.project/../Models/sponza/Sponza.gltf"
+                }
+            },
+            "NameComponent": {
+                "ID": -1938551892,
+                "Name": "Sponza"
+            },
+            "ParentComponent": {
+                "HasParent": false
+            },
+            "TransformComponent": {
+                "Rotation": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 0.05000000074505806,
+                    "y": 0.05000000074505806,
+                    "z": 0.05000000074505806
+                },
+                "Translation": {
+                    "x": 0.0,
+                    "y": -0.001983642578125,
+                    "z": 1.5493197441101074
+                },
+                "Type": "TransformComponent"
+            },
+            "VisibilityComponent": {
+                "Visible": true
+            }
+        },
+        {
+            "LightComponent": {
+                "CastShadows": true,
+                "Color": {
+                    "x": 1.0,
+                    "y": 0.7857125997543335,
+                    "z": 0.4285714030265808
+                },
+                "Direction": {
+                    "x": 0.1487881988286972,
+                    "y": 0.9863319993019104,
+                    "z": 0.07079082727432251
+                },
+                "IsVolumetric": true,
+                "Strength": 10.0,
+                "SyncDirectionWithSky": true,
+                "Type": 0
+            },
+            "NameComponent": {
+                "ID": -1732422591,
+                "Name": "Sun"
+            },
+            "ParentComponent": {
+                "HasParent": false
+            },
+            "TransformComponent": {
+                "Rotation": {
+                    "w": 1.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 1.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Translation": {
+                    "x": 0.0,
+                    "y": -1.6365461349487305,
+                    "z": 0.0
+                },
+                "Type": "TransformComponent"
+            },
+            "VisibilityComponent": {
+                "Visible": true
+            }
+        },
+        {
+            "ModelComponent": {
+                "ModelPath": "Models/Khronos/Duck/glTF/Duck.gltf",
+                "ModelResource": {
+                    "Path": "C:\\Dev\\Nuake-DemoProject\\test.project/../Models/Khronos/Duck/glTF/Duck.gltf"
+                }
+            },
+            "NameComponent": {
+                "ID": 1893379536,
+                "Name": "Entity"
+            },
+            "ParentComponent": {
+                "HasParent": false
+            },
+            "TransformComponent": {
+                "Rotation": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.8799006938934326,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 0.05000007525086403,
+                    "y": 0.04999999329447746,
+                    "z": 0.05000007525086403
+                },
+                "Translation": {
+                    "x": -1.841233730316162,
+                    "y": -0.46208667755126953,
+                    "z": 1.3885784149169922
+                },
+                "Type": "TransformComponent"
+            },
+            "VisibilityComponent": {
+                "Visible": true
+            }
+        }
+    ],
+    "Name": "",
+    "m_Environement": {
+        "AmbientColor": {
+            "w": 0.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "CurrentSkyType": 0,
+        "ProceduralSkybox": {
+            "AtmosphereRadius": 6380000.0,
+            "MieScattering": {
+                "x": 1.9999999494757503e-05,
+                "y": 1.9999999494757503e-05,
+                "z": 1.9999999494757503e-05
+            },
+            "RayleighScattering": {
+                "x": 5.80000005356851e-06,
+                "y": 1.3500000932253897e-05,
+                "z": 3.310000101919286e-05
+            },
+            "SunDirection": {
+                "x": 0.1487881988286972,
+                "y": 0.9863319993019104,
+                "z": 0.07079082727432251
+            },
+            "SunIntensity": 10.0,
+            "SurfaceRadius": 6360000.0
+        },
+        "VolumetricFog": 0.0,
+        "VolumetricStepCount": 50.0
+    }
+}
