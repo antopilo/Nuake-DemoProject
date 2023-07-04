@@ -1,0 +1,36 @@
+{
+    "Entities": [
+        {
+            "NameComponent": {
+                "ID": 237443808,
+                "Name": "Trenchbroom map2"
+            },
+            "ParentComponent": {
+                "HasParent": false
+            },
+            "QuakeMapComponent": {
+                "HasCollisions": true,
+                "Path": "Maps/DemoProjectMap1.map"
+            },
+            "TransformComponent": {
+                "Rotation": {
+                    "x": 0.0,
+                    "y": -0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Translation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Type": "TransformComponent"
+            }
+        }
+    ],
+    "Path": "C:\\Dev\\Nuake-DemoProject\\Prefabs\\test.prefab"
+}

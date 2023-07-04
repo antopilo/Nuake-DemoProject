@@ -1,0 +1,79 @@
+{
+    "Entities": [
+        {
+            "NameComponent": {
+                "ID": 647308162,
+                "Name": "Entity"
+            },
+            "ParentComponent": {
+                "HasParent": false
+            },
+            "TransformComponent": {
+                "Rotation": {
+					"w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Translation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Type": "TransformComponent"
+            }
+        },
+        {
+            "LightComponent": {
+                "CastShadows": false,
+                "Color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Direction": {
+                    "x": 0.0,
+                    "y": -1.0,
+                    "z": 0.0
+                },
+                "IsVolumetric": false,
+                "Strength": 10.0,
+                "SyncDirectionWithSky": false,
+                "Type": 1
+            },
+            "NameComponent": {
+                "ID": 935481958,
+                "Name": "Light"
+            },
+            "ParentComponent": {
+                "HasParent": true,
+                "ParentID": 647308162
+            },
+            "TransformComponent": {
+                "Rotation": {
+					"w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Translation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Type": "TransformComponent"
+            }
+        }
+    ],
+    "Path": "C:\\Dev\\Nuake-DemoProject\\Prefabs\\light.prefab"
+}

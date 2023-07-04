@@ -1,0 +1,35 @@
+{
+    "Entities": [
+        {
+            "MeshComponent": {
+                "ModelPath": "Models/suit.gltf"
+            },
+            "NameComponent": {
+                "ID": 1250704307,
+                "Name": "Model"
+            },
+            "ParentComponent": {
+                "HasParent": false
+            },
+            "TransformComponent": {
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 0.05000000074505806,
+                    "y": 0.05000000074505806,
+                    "z": 0.05000000074505806
+                },
+                "Translation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Type": "TransformComponent"
+            }
+        }
+    ],
+    "Path": "C:\\Dev\\Nuake-DemoProject\\Prefabs\\model.prefab"
+}

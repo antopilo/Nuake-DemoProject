@@ -1,0 +1,317 @@
+{
+    "Entities": [
+        {
+            "MeshComponent": {
+                "ModelPath": "Models/sponza/Sponza.gltf"
+            },
+            "NameComponent": {
+                "ID": 1284566595,
+                "Name": "Entity"
+            },
+            "ParentComponent": {
+                "HasParent": false
+            },
+            "TransformComponent": {
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 0.009999999776482582,
+                    "y": 0.009999999776482582,
+                    "z": 0.009999999776482582
+                },
+                "Translation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Type": "TransformComponent"
+            }
+        },
+        {
+            "CharacterControllerComponent": {
+                "Height": 1.2000000476837158,
+                "Mass": 2500.0,
+                "Radius": 0.20000000298023224
+            },
+            "NameComponent": {
+                "ID": 237171289,
+                "Name": "Player"
+            },
+            "ParentComponent": {
+                "HasParent": false
+            },
+            "TransformComponent": {
+                "Rotation": {
+                    "x": 0.0,
+                    "y": -0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Translation": {
+                    "x": -5.065310955047607,
+                    "y": 4.5383830070495605,
+                    "z": 5.227402687072754
+                },
+                "Type": "TransformComponent"
+            },
+            "WrenScriptComponent": {
+                "Class": "PlayerScript",
+                "Script": "Scripts/Player.wren"
+            }
+        },
+        {
+            "LightComponent": {
+                "CastShadows": false,
+                "Color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Direction": {
+                    "x": 0.0,
+                    "y": -1.0,
+                    "z": 0.0
+                },
+                "IsVolumetric": false,
+                "Strength": 10.0,
+                "SyncDirectionWithSky": false,
+                "Type": 1
+            },
+            "NameComponent": {
+                "ID": 935481958,
+                "Name": "Light"
+            },
+            "ParentComponent": {
+                "HasParent": false
+            },
+            "TransformComponent": {
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Translation": {
+                    "x": -1.5,
+                    "y": 1.7999999523162842,
+                    "z": 6.099999904632568
+                },
+                "Type": "TransformComponent"
+            }
+        },
+        {
+            "MeshComponent": {
+                "ModelPath": "Models/shotgun.gltf"
+            },
+            "NameComponent": {
+                "ID": -1669303932,
+                "Name": "Shotgun"
+            },
+            "ParentComponent": {
+                "HasParent": true,
+                "ParentID": 237481018
+            },
+            "TransformComponent": {
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 0.019999999552965164,
+                    "y": 0.019999999552965164,
+                    "z": 0.019999999552965164
+                },
+                "Translation": {
+                    "x": 0.6200000047683716,
+                    "y": -0.8799999952316284,
+                    "z": 0.20000000298023224
+                },
+                "Type": "TransformComponent"
+            },
+            "WrenScriptComponent": {
+                "Class": "",
+                "Script": ""
+            }
+        },
+        {
+            "CameraComponent": {
+                "CameraInstance": {
+                    "AspectRatio": 1.7777777910232544,
+                    "Exposure": 1.0,
+                    "Fov": 88.0,
+                    "Speed": 1.0,
+                    "m_Type": 1
+                }
+            },
+            "NameComponent": {
+                "ID": 237481018,
+                "Name": "Camera"
+            },
+            "ParentComponent": {
+                "HasParent": false
+            },
+            "TransformComponent": {
+                "Rotation": {
+                    "x": 0.0,
+                    "y": -244.0,
+                    "z": -2.0999999046325684
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Translation": {
+                    "x": -5.065310955047607,
+                    "y": 5.0383830070495605,
+                    "z": 5.227402687072754
+                },
+                "Type": "TransformComponent"
+            },
+            "WrenScriptComponent": {
+                "Class": "CamScript",
+                "Script": "Scripts/Cam.wren"
+            }
+        },
+        {
+            "LightComponent": {
+                "CastShadows": true,
+                "Color": {
+                    "x": 0.991610586643219,
+                    "y": 1.0,
+                    "z": 0.29535865783691406
+                },
+                "Direction": {
+                    "x": 0.20000000298023224,
+                    "y": 0.9591699838638306,
+                    "z": 0.20000000298023224
+                },
+                "IsVolumetric": true,
+                "Strength": 5.7270002365112305,
+                "SyncDirectionWithSky": true,
+                "Type": 0
+            },
+            "NameComponent": {
+                "ID": 3,
+                "Name": "Moonlight"
+            },
+            "ParentComponent": {
+                "HasParent": false
+            },
+            "TransformComponent": {
+                "Rotation": {
+                    "x": 0.0,
+                    "y": -0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Translation": {
+                    "x": 0.0,
+                    "y": 17.93589973449707,
+                    "z": 0.0
+                },
+                "Type": "TransformComponent"
+            },
+            "WrenScriptComponent": {
+                "Class": "TestScript",
+                "Script": "Scripts/entityScript.wren"
+            }
+        },
+        {
+            "LightComponent": {
+                "CastShadows": false,
+                "Color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Direction": {
+                    "x": 0.0,
+                    "y": -1.0,
+                    "z": 0.0
+                },
+                "IsVolumetric": false,
+                "Strength": 0.0,
+                "SyncDirectionWithSky": false,
+                "Type": 1
+            },
+            "NameComponent": {
+                "ID": 863452687,
+                "Name": "MuzzleFlash"
+            },
+            "ParentComponent": {
+                "HasParent": true,
+                "ParentID": 237481018
+            },
+            "TransformComponent": {
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Translation": {
+                    "x": 1.190000057220459,
+                    "y": -0.25,
+                    "z": 0.07999999821186066
+                },
+                "Type": "TransformComponent"
+            },
+            "WrenScriptComponent": {
+                "Class": "Shotgun",
+                "Script": "Scripts/Shotgun.wren"
+            }
+        }
+    ],
+    "Name": "",
+    "m_Environement": {
+        "AmbientColor": {
+            "w": 0.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "ProceduralSkybox": {
+            "AtmosphereRadius": 6380000.0,
+            "MieScattering": {
+                "x": 1.9999999494757503e-05,
+                "y": 1.9999999494757503e-05,
+                "z": 1.9999999494757503e-05
+            },
+            "RayleighScattering": {
+                "x": 5.80000005356851e-06,
+                "y": 1.3500000022759195e-05,
+                "z": 3.310000101919286e-05
+            },
+            "SunDirection": {
+                "x": 0.20000000298023224,
+                "y": 0.9591699838638306,
+                "z": 0.20000000298023224
+            },
+            "SunIntensity": 100.0,
+            "SurfaceRadius": 6360000.0
+        },
+        "VolumetricFog": 0.9599999785423279,
+        "VolumetricStepCount": 100.0
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "Entities": [
+        {
+            "MeshComponent": {
+                "ModelPath": "Models/shotgun.gltf"
+            },
+            "NameComponent": {
+                "ID": -1669303932,
+                "Name": "Shotgun"
+            },
+            "ParentComponent": {
+                "HasParent": false,
+                "ParentID": 237481018
+            },
+            "TransformComponent": {
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 0.019999999552965164,
+                    "y": 0.019999999552965164,
+                    "z": 0.019999999552965164
+                },
+                "Translation": {
+                    "x": 0.6200000047683716,
+                    "y": -0.8799999952316284,
+                    "z": 0.20000000298023224
+                },
+                "Type": "TransformComponent"
+            },
+            "WrenScriptComponent": {
+                "Class": "",
+                "Script": ""
+            }
+        }
+    ],
+    "Path": "C:\\Dev\\Nuake-DemoProject\\Prefabs\\shotty.prefab"
+}

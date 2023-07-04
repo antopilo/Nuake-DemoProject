@@ -1,0 +1,129 @@
+{
+    "Entities": [
+        {
+            "CameraComponent": {
+                "CameraInstance": {
+                    "AspectRatio": 1.7777777910232544,
+                    "Exposure": 1.0,
+                    "Fov": 88.0,
+                    "Speed": 1.0,
+                    "m_Type": 1
+                }
+            },
+            "NameComponent": {
+                "ID": 237481018,
+                "Name": "Camera"
+            },
+            "ParentComponent": {
+                "HasParent": false
+            },
+            "TransformComponent": {
+                "Rotation": {
+                    "x": 0.0,
+                    "y": -244.0,
+                    "z": -2.0999999046325684
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Translation": {
+                    "x": -5.065310955047607,
+                    "y": 5.0383830070495605,
+                    "z": 5.227402687072754
+                },
+                "Type": "TransformComponent"
+            },
+            "WrenScriptComponent": {
+                "Class": "CamScript",
+                "Script": "Scripts/Cam.wren"
+            }
+        },
+        {
+            "MeshComponent": {
+                "ModelPath": "Models/shotgun.gltf"
+            },
+            "NameComponent": {
+                "ID": -1669303932,
+                "Name": "Shotgun"
+            },
+            "ParentComponent": {
+                "HasParent": true,
+                "ParentID": 237481018
+            },
+            "TransformComponent": {
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 0.019999999552965164,
+                    "y": 0.019999999552965164,
+                    "z": 0.019999999552965164
+                },
+                "Translation": {
+                    "x": 0.6200000047683716,
+                    "y": -0.8799999952316284,
+                    "z": 0.20000000298023224
+                },
+                "Type": "TransformComponent"
+            },
+            "WrenScriptComponent": {
+                "Class": "",
+                "Script": ""
+            }
+        },
+        {
+            "LightComponent": {
+                "CastShadows": false,
+                "Color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Direction": {
+                    "x": 0.0,
+                    "y": -1.0,
+                    "z": 0.0
+                },
+                "IsVolumetric": false,
+                "Strength": 0.0,
+                "SyncDirectionWithSky": false,
+                "Type": 1
+            },
+            "NameComponent": {
+                "ID": 863452687,
+                "Name": "MuzzleFlash"
+            },
+            "ParentComponent": {
+                "HasParent": true,
+                "ParentID": 237481018
+            },
+            "TransformComponent": {
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Translation": {
+                    "x": 1.190000057220459,
+                    "y": -0.25,
+                    "z": 0.07999999821186066
+                },
+                "Type": "TransformComponent"
+            },
+            "WrenScriptComponent": {
+                "Class": "Shotgun",
+                "Script": "Scripts/Shotgun.wren"
+            }
+        }
+    ],
+    "Path": "C:\\Dev\\Nuake-DemoProject\\Prefabs\\Camera"
+}

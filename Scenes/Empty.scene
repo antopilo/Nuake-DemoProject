@@ -1,0 +1,63 @@
+{
+    "Entities": [
+        {
+            "NameComponent": {
+                "ID": 263868800,
+                "Name": "Hello World"
+            },
+            "ParentComponent": {
+                "HasParent": false
+            },
+            "TransformComponent": {
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Translation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Type": "TransformComponent"
+            }
+        }
+    ],
+    "Name": "",
+    "m_Environement": {
+        "AmbientColor": {
+            "w": 0.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "CurrentSkyType": 0,
+        "ProceduralSkybox": {
+            "AtmosphereRadius": 6380000.0,
+            "MieScattering": {
+                "x": 1.9999999494757503e-05,
+                "y": 1.9999999494757503e-05,
+                "z": 1.9999999494757503e-05
+            },
+            "RayleighScattering": {
+                "x": 5.80000005356851e-06,
+                "y": 1.3500000932253897e-05,
+                "z": 3.310000101919286e-05
+            },
+            "SunDirection": {
+                "x": 0.19999931752681732,
+                "y": 0.9591666460037231,
+                "z": 0.19999931752681732
+            },
+            "SunIntensity": 100.0,
+            "SurfaceRadius": 6360000.0
+        },
+        "VolumetricFog": 0.8999999761581421,
+        "VolumetricStepCount": 50.0
+    }
+}

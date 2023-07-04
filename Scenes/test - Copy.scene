@@ -1,0 +1,280 @@
+{
+    "Entities": [
+        {
+            "CameraComponent": {
+                "CameraInstance": {
+                    "AspectRatio": 1.7777777910232544,
+                    "Exposure": 1.0,
+                    "Fov": 88.0,
+                    "Speed": 1.0,
+                    "m_Type": 1
+                }
+            },
+            "NameComponent": {
+                "ID": -318523057,
+                "Name": "Camera"
+            },
+            "ParentComponent": {
+                "HasParent": false
+            },
+            "TransformComponent": {
+                "Rotation": {
+                    "x": 180.0,
+                    "y": -71.31893920898438,
+                    "z": 180.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Translation": {
+                    "x": 0.19067829847335815,
+                    "y": 1.8474702835083008,
+                    "z": -0.8925948143005371
+                },
+                "Type": "TransformComponent"
+            }
+        },
+        {
+            "MeshComponent": {
+                "ModelPath": "Models/sphere.gltf"
+            },
+            "NameComponent": {
+                "ID": 237250357,
+                "Name": "Sphere"
+            },
+            "ParentComponent": {
+                "HasParent": false
+            },
+            "TransformComponent": {
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                },
+                "Translation": {
+                    "x": -5.03654670715332,
+                    "y": 3.124406337738037,
+                    "z": -1.317037582397461
+                },
+                "Type": "TransformComponent"
+            }
+        },
+        {
+            "MeshComponent": {
+                "ModelPath": "Models/cube.gltf"
+            },
+            "NameComponent": {
+                "ID": -2128469595,
+                "Name": "Cube"
+            },
+            "ParentComponent": {
+                "HasParent": false
+            },
+            "TransformComponent": {
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Translation": {
+                    "x": -3.7808127403259277,
+                    "y": 1.3461823463439941,
+                    "z": -1.1847165822982788
+                },
+                "Type": "TransformComponent"
+            }
+        },
+        {
+            "MeshComponent": {
+                "ModelPath": "Models/sponza/Sponza.gltf"
+            },
+            "NameComponent": {
+                "ID": 1284566595,
+                "Name": "Sponza"
+            },
+            "ParentComponent": {
+                "HasParent": false
+            },
+            "TransformComponent": {
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 0.009999999776482582,
+                    "y": 0.009999999776482582,
+                    "z": 0.009999999776482582
+                },
+                "Translation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Type": "TransformComponent"
+            }
+        },
+        {
+            "NameComponent": {
+                "ID": 1862607758,
+                "Name": "Floor"
+            },
+            "ParentComponent": {
+                "HasParent": false
+            },
+            "TransformComponent": {
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Translation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Type": "TransformComponent"
+            }
+        },
+        {
+            "LightComponent": {
+                "CastShadows": false,
+                "Color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Direction": {
+                    "x": 0.0,
+                    "y": -1.0,
+                    "z": 0.0
+                },
+                "IsVolumetric": false,
+                "Strength": 10.0,
+                "SyncDirectionWithSky": false,
+                "Type": 1
+            },
+            "NameComponent": {
+                "ID": 935481958,
+                "Name": "Light"
+            },
+            "ParentComponent": {
+                "HasParent": false
+            },
+            "TransformComponent": {
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Translation": {
+                    "x": -1.5,
+                    "y": 1.7999999523162842,
+                    "z": 6.099999904632568
+                },
+                "Type": "TransformComponent"
+            }
+        },
+        {
+            "LightComponent": {
+                "CastShadows": true,
+                "Color": {
+                    "x": 0.991610586643219,
+                    "y": 1.0,
+                    "z": 0.29535865783691406
+                },
+                "Direction": {
+                    "x": 0.20000000298023224,
+                    "y": 0.9591699838638306,
+                    "z": 0.20000000298023224
+                },
+                "IsVolumetric": true,
+                "Strength": 5.7270002365112305,
+                "SyncDirectionWithSky": true,
+                "Type": 0
+            },
+            "NameComponent": {
+                "ID": 3,
+                "Name": "Moonlight"
+            },
+            "ParentComponent": {
+                "HasParent": false
+            },
+            "TransformComponent": {
+                "Rotation": {
+                    "x": 0.0,
+                    "y": -0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Translation": {
+                    "x": 0.0,
+                    "y": 17.93589973449707,
+                    "z": 0.0
+                },
+                "Type": "TransformComponent"
+            },
+            "WrenScriptComponent": {
+                "Class": "TestScript",
+                "Script": "Scripts/entityScript.wren"
+            }
+        }
+    ],
+    "Name": "",
+    "m_Environement": {
+        "AmbientColor": {
+            "w": 7.144950341327203e+31,
+            "x": 4.0560794306587766e-11,
+            "y": 1.0855745168205182e-19,
+            "z": 7.144950341327203e+31
+        },
+        "ProceduralSkybox": {
+            "AtmosphereRadius": 6380000.0,
+            "MieScattering": {
+                "x": 1.9999999494757503e-05,
+                "y": 1.9999999494757503e-05,
+                "z": 1.9999999494757503e-05
+            },
+            "RayleighScattering": {
+                "x": 5.80000005356851e-06,
+                "y": 1.3500000022759195e-05,
+                "z": 3.310000101919286e-05
+            },
+            "SunDirection": {
+                "x": 0.20000000298023224,
+                "y": 0.9591699838638306,
+                "z": 0.20000000298023224
+            },
+            "SunIntensity": 100.0,
+            "SurfaceRadius": 6360000.0
+        },
+        "VolumetricFog": 0.9599999785423279,
+        "VolumetricStepCount": 100.0
+    }
+}

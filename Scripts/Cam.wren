@@ -45,7 +45,6 @@ class CamScript is ScriptableEntity {
         if(_Pitch > 89) _Pitch = 89
         if(_Pitch < -89) _Pitch = -89
 
-        var cam = this.GetComponent("Camera")
 
         var rad_yaw = Math.Radians(_Yaw)
         var rad_pitch = Math.Radians(_Pitch)

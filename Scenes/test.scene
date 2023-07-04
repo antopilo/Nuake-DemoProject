@@ -1,238 +1,6 @@
 {
     "Entities": [
         {
-            "NameComponent": {
-                "ID": 411114551,
-                "Name": "WorldSpawn"
-            },
-            "ParentComponent": {
-                "HasParent": true,
-                "ParentID": 411114061
-            },
-            "TransformComponent": {
-                "Rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                },
-                "Scale": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
-                },
-                "Translation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                },
-                "Type": "TransformComponent"
-            }
-        },
-        {
-            "NameComponent": {
-                "ID": 411114061,
-                "Name": "Brush 3"
-            },
-            "ParentComponent": {
-                "HasParent": true,
-                "ParentID": 237443808
-            },
-            "TransformComponent": {
-                "Rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                },
-                "Scale": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
-                },
-                "Translation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                },
-                "Type": "TransformComponent"
-            }
-        },
-        {
-            "NameComponent": {
-                "ID": 411104952,
-                "Name": "door2"
-            },
-            "ParentComponent": {
-                "HasParent": true,
-                "ParentID": 411102670
-            },
-            "TransformComponent": {
-                "Rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                },
-                "Scale": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
-                },
-                "Translation": {
-                    "x": 1.125,
-                    "y": 0.375,
-                    "z": 7.75
-                },
-                "Type": "TransformComponent"
-            },
-            "WrenScriptComponent": {
-                "Class": "Door",
-                "Script": "Scripts/Door.wren"
-            }
-        },
-        {
-            "NameComponent": {
-                "ID": 411102670,
-                "Name": "Brush 2"
-            },
-            "ParentComponent": {
-                "HasParent": true,
-                "ParentID": 237443808
-            },
-            "TransformComponent": {
-                "Rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                },
-                "Scale": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
-                },
-                "Translation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                },
-                "Type": "TransformComponent"
-            }
-        },
-        {
-            "NameComponent": {
-                "ID": 411088917,
-                "Name": "Trigger"
-            },
-            "ParentComponent": {
-                "HasParent": true,
-                "ParentID": 411088051
-            },
-            "TransformComponent": {
-                "Rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                },
-                "Scale": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
-                },
-                "Translation": {
-                    "x": -0.875,
-                    "y": 0.625,
-                    "z": 7.5
-                },
-                "Type": "TransformComponent"
-            },
-            "WrenScriptComponent": {
-                "Class": "TriggerOnce",
-                "Script": "Scripts/TriggerOnce.wren"
-            }
-        },
-        {
-            "NameComponent": {
-                "ID": 411088051,
-                "Name": "Brush 1"
-            },
-            "ParentComponent": {
-                "HasParent": true,
-                "ParentID": 237443808
-            },
-            "TransformComponent": {
-                "Rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                },
-                "Scale": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
-                },
-                "Translation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                },
-                "Type": "TransformComponent"
-            }
-        },
-        {
-            "NameComponent": {
-                "ID": 411068414,
-                "Name": "WorldSpawn"
-            },
-            "ParentComponent": {
-                "HasParent": true,
-                "ParentID": 411068065
-            },
-            "TransformComponent": {
-                "Rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                },
-                "Scale": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
-                },
-                "Translation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                },
-                "Type": "TransformComponent"
-            }
-        },
-        {
-            "NameComponent": {
-                "ID": 411068065,
-                "Name": "Brush 0"
-            },
-            "ParentComponent": {
-                "HasParent": true,
-                "ParentID": 237443808
-            },
-            "TransformComponent": {
-                "Rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                },
-                "Scale": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
-                },
-                "Translation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                },
-                "Type": "TransformComponent"
-            }
-        },
-        {
             "LightComponent": {
                 "CastShadows": false,
                 "Color": {
@@ -246,57 +14,78 @@
                     "z": 0.0
                 },
                 "IsVolumetric": false,
-                "Strength": 0.0,
+                "Strength": 27.110000610351563,
                 "SyncDirectionWithSky": false,
                 "Type": 1
             },
             "NameComponent": {
-                "ID": 863452687,
-                "Name": "MuzzleFlash"
-            },
-            "ParentComponent": {
-                "HasParent": true,
-                "ParentID": 237481018
-            },
-            "TransformComponent": {
-                "Rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                },
-                "Scale": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
-                },
-                "Translation": {
-                    "x": 1.190000057220459,
-                    "y": -0.25,
-                    "z": 0.07999999821186066
-                },
-                "Type": "TransformComponent"
-            },
-            "WrenScriptComponent": {
-                "Class": "Shotgun",
-                "Script": "Scripts/Shotgun.wren"
-            }
-        },
-        {
-            "NameComponent": {
-                "ID": 237443808,
-                "Name": "Trenchbroom map"
+                "ID": 150362474,
+                "Name": "Entity"
             },
             "ParentComponent": {
                 "HasParent": false
             },
-            "QuakeMapComponent": {
-                "HasCollisions": true,
-                "Path": "Maps/DemoProjectMap1.map"
+            "TransformComponent": {
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "Translation": {
+                    "x": -0.9039556980133057,
+                    "y": 5.918245315551758,
+                    "z": -4.196620464324951
+                },
+                "Type": "TransformComponent"
+            }
+        },
+        {
+            "MeshComponent": {
+                "ModelPath": "Models/Khronos/ToyCar/glTF/ToyCar.gltf"
+            },
+            "NameComponent": {
+                "ID": 1233927726,
+                "Name": "Entity"
+            },
+            "ParentComponent": {
+                "HasParent": false
+            },
+            "TransformComponent": {
+                "Rotation": {
+                    "x": 90.24020385742188,
+                    "y": -5.210000038146973,
+                    "z": -167.58999633789063
+                },
+                "Scale": {
+                    "x": 0.00800000037997961,
+                    "y": 0.00800000037997961,
+                    "z": 0.00800000037997961
+                },
+                "Translation": {
+                    "x": -4.124960899353027,
+                    "y": 2.3013930320739746,
+                    "z": -19.213438034057617
+                },
+                "Type": "TransformComponent"
+            }
+        },
+        {
+            "NameComponent": {
+                "ID": 1862607758,
+                "Name": "Floor"
+            },
+            "ParentComponent": {
+                "HasParent": false
             },
             "TransformComponent": {
                 "Rotation": {
                     "x": 0.0,
-                    "y": -0.0,
+                    "y": 0.0,
                     "z": 0.0
                 },
                 "Scale": {
@@ -306,7 +95,7 @@
                 },
                 "Translation": {
                     "x": 0.0,
-                    "y": 0.0,
+                    "y": -1.501415729522705,
                     "z": 0.0
                 },
                 "Type": "TransformComponent"
@@ -317,16 +106,16 @@
                 "CastShadows": true,
                 "Color": {
                     "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
+                    "y": 0.9622097611427307,
+                    "z": 0.9420849680900574
                 },
                 "Direction": {
-                    "x": 0.20000000298023224,
-                    "y": 0.9591699838638306,
-                    "z": 0.20000000298023224
+                    "x": -0.014988279901444912,
+                    "y": 0.9996248483657837,
+                    "z": 0.022925736382603645
                 },
-                "IsVolumetric": true,
-                "Strength": 1.940000057220459,
+                "IsVolumetric": false,
+                "Strength": 51.16699981689453,
                 "SyncDirectionWithSky": true,
                 "Type": 0
             },
@@ -354,73 +143,23 @@
                     "z": 0.0
                 },
                 "Type": "TransformComponent"
-            },
-            "WrenScriptComponent": {
-                "Class": "TestScript",
-                "Script": "Scripts/entityScript.wren"
             }
         },
         {
-            "CameraComponent": {
-                "CameraInstance": {
-                    "AspectRatio": 1.7777777910232544,
-                    "Exposure": 1.0,
-                    "Fov": 88.0,
-                    "Speed": 1.0,
-                    "m_Type": 1
+            "BoxColliderComponent": {
+                "IsTrigger": false,
+                "Size": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
                 }
             },
-            "NameComponent": {
-                "ID": 237481018,
-                "Name": "Camera"
-            },
-            "ParentComponent": {
-                "HasParent": false
-            },
-            "TransformComponent": {
-                "Rotation": {
-                    "x": 0.0,
-                    "y": -244.0,
-                    "z": -2.0999999046325684
-                },
-                "Scale": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
-                },
-                "Translation": {
-                    "x": -5.065310955047607,
-                    "y": 5.0383830070495605,
-                    "z": 5.227402687072754
-                },
-                "Type": "TransformComponent"
-            },
-            "WrenScriptComponent": {
-                "Class": "CamScript",
-                "Script": "Scripts/Cam.wren"
-            }
-        },
-        {
-            "LightComponent": {
-                "CastShadows": false,
-                "Color": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
-                },
-                "Direction": {
-                    "x": 0.0,
-                    "y": -1.0,
-                    "z": 0.0
-                },
-                "IsVolumetric": false,
-                "Strength": 10.0,
-                "SyncDirectionWithSky": false,
-                "Type": 1
+            "MeshComponent": {
+                "ModelPath": "Models/sponza/Sponza.gltf"
             },
             "NameComponent": {
-                "ID": 935481958,
-                "Name": "Light"
+                "ID": -2128469595,
+                "Name": "Cube"
             },
             "ParentComponent": {
                 "HasParent": false
@@ -432,87 +171,46 @@
                     "z": 0.0
                 },
                 "Scale": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
+                    "x": 0.012000000104308128,
+                    "y": 0.009999999776482582,
+                    "z": 0.009999999776482582
                 },
                 "Translation": {
                     "x": 0.0,
-                    "y": 0.0,
+                    "y": -0.21437370777130127,
                     "z": 0.0
                 },
                 "Type": "TransformComponent"
-            }
-        },
-        {
-            "CharacterControllerComponent": {
-                "Height": 1.2000000476837158,
-                "Mass": 2500.0,
-                "Radius": 0.20000000298023224
-            },
-            "NameComponent": {
-                "ID": 237171289,
-                "Name": "Player"
-            },
-            "ParentComponent": {
-                "HasParent": false
-            },
-            "TransformComponent": {
-                "Rotation": {
-                    "x": 0.0,
-                    "y": -0.0,
-                    "z": 0.0
-                },
-                "Scale": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
-                },
-                "Translation": {
-                    "x": -5.065310955047607,
-                    "y": 4.5383830070495605,
-                    "z": 5.227402687072754
-                },
-                "Type": "TransformComponent"
-            },
-            "WrenScriptComponent": {
-                "Class": "PlayerScript",
-                "Script": "Scripts/Player.wren"
             }
         },
         {
             "MeshComponent": {
-                "ModelPath": "Models/shotgun.gltf"
+                "ModelPath": "Models/Khronos/DamagedHelmet/glTF/DamagedHelmet.gltf"
             },
             "NameComponent": {
-                "ID": -1669303932,
-                "Name": "Shotgun"
+                "ID": 237250357,
+                "Name": "Sphere"
             },
             "ParentComponent": {
-                "HasParent": true,
-                "ParentID": 237481018
+                "HasParent": false
             },
             "TransformComponent": {
                 "Rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 90.0,
+                    "y": 2.5999999046325684,
+                    "z": 31.100000381469727
                 },
                 "Scale": {
-                    "x": 0.019999999552965164,
-                    "y": 0.019999999552965164,
-                    "z": 0.019999999552965164
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
                 },
                 "Translation": {
-                    "x": 0.6200000047683716,
-                    "y": -0.8799999952316284,
-                    "z": 0.20000000298023224
+                    "x": 1.059999942779541,
+                    "y": 2.025562286376953,
+                    "z": -0.5625109672546387
                 },
                 "Type": "TransformComponent"
-            },
-            "WrenScriptComponent": {
-                "Class": "",
-                "Script": ""
             }
         }
     ],
@@ -524,6 +222,7 @@
             "y": 0.0,
             "z": 0.0
         },
+        "CurrentSkyType": 0,
         "ProceduralSkybox": {
             "AtmosphereRadius": 6380000.0,
             "MieScattering": {
@@ -533,18 +232,18 @@
             },
             "RayleighScattering": {
                 "x": 5.80000005356851e-06,
-                "y": 1.3500000022759195e-05,
+                "y": 1.3500000932253897e-05,
                 "z": 3.310000101919286e-05
             },
             "SunDirection": {
-                "x": 0.20000000298023224,
-                "y": 0.9591699838638306,
-                "z": 0.20000000298023224
+                "x": -0.014988279901444912,
+                "y": 0.9996248483657837,
+                "z": 0.022925736382603645
             },
             "SunIntensity": 100.0,
             "SurfaceRadius": 6360000.0
         },
-        "VolumetricFog": 0.949999988079071,
+        "VolumetricFog": 0.9599999785423279,
         "VolumetricStepCount": 100.0
     }
 }
