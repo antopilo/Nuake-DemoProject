@@ -12,12 +12,15 @@ class CamScript is ScriptableEntity {
        _mouseLastX = 0
        _mouseLastY = 0
 
-        _BobHeight = 0.1
-        _BobSpeed = 5.0
-        _CamHeight = 0.5
-
+        _BobLerp = 0.8
+        _BobHeight = 0.5
+        _BobSpeed = 0.1
+        _CamHeightTarget = 0.5
+        _CamHeight = _CamHeightTarget
         _deltaTime = 0
 
+        _Sens = 0.1
+        _LastCamHeight = _CamHeight
         Input.HideMouse()
     }
 
@@ -29,42 +32,48 @@ class CamScript is ScriptableEntity {
         var x = Input.GetMouseX()
         var my = Input.GetMouseY()
 
-        var diffx = x - _mouseLastX
-        var diffy =  _mouseLastY - my
+        var deltaX = (x - _mouseLastX) * _Sens
+        var deltaY =  (_mouseLastY - my) * _Sens
+
+        // Save positon for next update
         _mouseLastX = x
         _mouseLastY = my
 
-        var sens = 0.1
-
-        diffx = diffx * sens
-        diffy = diffy * sens
-
-        _Yaw = _Yaw + diffx
-        _Pitch = _Pitch + diffy
-
+        _Yaw = _Yaw + deltaX
+        _Pitch = _Pitch + deltaY
+        
+        // Clamp up and down
         if(_Pitch > 89) _Pitch = 89
         if(_Pitch < -89) _Pitch = -89
 
-
         var rad_yaw = Math.Radians(_Yaw)
         var rad_pitch = Math.Radians(_Pitch)
-        var camX = Math.Cos(rad_yaw) * Math.Cos(rad_pitch)
-        var camY = Math.Sin(rad_pitch)
-        var camZ = Math.Sin(rad_yaw) * Math.Cos(rad_pitch)
 
-        var newDir = Vector3.new(camX, camY, camZ)
+        // Calculate forward vector
+        // var camX = Math.Cos(rad_yaw) * Math.Cos(rad_pitch)
+        // var camY = Math.Sin(rad_pitch)
+        // var camZ = Math.Sin(rad_yaw) * Math.Cos(rad_pitch)
+        // var newDir = Vector3.new(camX, camY, camZ)
 
-        var camTransform = this.GetComponent("Transform")
-        var camPoss = camTransform.GetTranslation()
+        var player = Scene.GetEntity("Player")
+        var playerTransform = player.GetComponent("Transform")
+        var playerPosition = playerTransform.GetTranslation()
+        var velocity = player.GetComponent("Script").GetVelocity()
+        var bobValue = Math.Sin(_deltaTime * _BobSpeed * (velocity.Length() / 10.0))
+        _CamHeight = Math.Lerp(_CamHeight, playerPosition.y + bobValue - (bobValue / 2.0)  *_BobHeight, _BobLerp)
 
+        Engine.Log("%(playerPosition.x)")
         var transform = this.GetComponent("Transform")
-        //var newPos = Vector3.new(pPos.x, _CamHeight, pPos.z)
+        var newPos = Vector3.new(playerPosition.x, _CamHeight, playerPosition.z)
 		var newRot = Vector3.new(-_Pitch, _Yaw, 0)
 		transform.SetRotation(newRot)
+        transform.SetTranslation(newPos)
+
+        _deltaTime = _deltaTime + ts
     }
 
     fixedUpdate(ts) {
-        _deltaTime = _deltaTime + ts
+        
     }
 
     exit() {}
